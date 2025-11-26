@@ -47,6 +47,7 @@ export function BrickBreakerGame() {
     bricks: [] as Brick[],
     animationId: 0,
   })
+  const lastTimeRef = useRef<number | null>(null)
 
   useEffect(() => {
     // Check localStorage for form submission and form trigger
@@ -241,10 +242,19 @@ export function BrickBreakerGame() {
     const ctx = canvas.getContext("2d")
     if (!ctx) return
 
-    const gameLoop = () => {
+    const gameLoop = (timestamp: number) => {
       if (showForm || showCongrats) return
 
       const { ball, paddle, bricks } = gameStateRef.current
+
+      // Time-based movement scaling to keep speed constant across refresh rates
+      const prev = lastTimeRef.current
+      if (prev === null) {
+        lastTimeRef.current = timestamp
+      }
+      const dt = prev === null ? 1/60 : Math.min((timestamp - prev) / 1000, 0.05)
+      lastTimeRef.current = timestamp
+      const scale = dt * 60
 
       // Clear canvas
       ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -279,9 +289,12 @@ export function BrickBreakerGame() {
           
           // Draw skill name
           ctx.fillStyle = brick.color
-          ctx.font = isMobile ? "bold 8px Arial" : "bold 11px Arial"
+          ctx.font = isMobile ? "bold 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" : "bold 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
           ctx.textAlign = "center"
           ctx.textBaseline = "middle"
+          // Enable better text rendering
+          ctx.imageSmoothingEnabled = true
+          ctx.imageSmoothingQuality = "high"
           ctx.fillText(brick.letter, brick.x + brick.width / 2, brick.y + brick.height / 2)
         }
       })
@@ -308,9 +321,9 @@ export function BrickBreakerGame() {
         ball.x = paddle.x + paddle.width / 2
         ball.y = paddle.y - ball.radius
       } else {
-        // Move ball
-        ball.x += ball.dx
-        ball.y += ball.dy
+        // Move ball using time-based scaling (baseline 60fps)
+        ball.x += ball.dx * scale
+        ball.y += ball.dy * scale
       }
 
       // Wall collision
@@ -406,7 +419,8 @@ export function BrickBreakerGame() {
       gameStateRef.current.animationId = requestAnimationFrame(gameLoop)
     }
 
-    gameLoop()
+    lastTimeRef.current = null
+    gameStateRef.current.animationId = requestAnimationFrame(gameLoop)
   }
 
   const handleFormClose = () => {
