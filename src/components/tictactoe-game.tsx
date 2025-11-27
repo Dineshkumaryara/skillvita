@@ -423,11 +423,12 @@ export function TicTacToeGame() {
     <div className="flex flex-col items-center justify-center min-h-full p-4 bg-black">
       {/* Name Form at Start */}
       {showNameForm && (
-        <div className="fixed inset-0 bg-black flex items-center justify-center z-50 p-4">
-          <div className="p-8 max-w-md w-full border-2 rounded-lg" style={{ borderColor: '#32FE6B' }}>
+        <div className="flex items-center justify-center w-full p-4">
+          <div className="p-8 max-w-md w-full border-2 rounded-lg bg-gray-900/50 backdrop-blur-sm" style={{ borderColor: '#32FE6B' }}>
             <div className="text-center mb-6">
-              <h2 className="text-4xl font-bold mb-2" style={{ color: '#32FE6B' }}>🎮 Tic-Tac-Toe</h2>
-              <p className="text-gray-400">Enter your name to start playing!</p>
+              <h2 className="text-4xl font-bold mb-2" style={{ color: '#32FE6B' }}>Tic-Tac-Toe</h2>
+              <p className="text-gray-400 mb-2">Play a game to unlock E-books</p>
+              <p className="text-sm text-gray-500">Enter your name to start playing!</p>
             </div>
 
             <form onSubmit={handleNameSubmit} className="space-y-4">
@@ -475,6 +476,7 @@ export function TicTacToeGame() {
                 Start Game
               </Button>
             </form>
+            <p className="text-center text-xs text-gray-500 mt-4">Sent straight into your email</p>
           </div>
         </div>
       )}
@@ -533,7 +535,7 @@ export function TicTacToeGame() {
                       setErrors({ ...errors, phone: '' });
                     }
                   }}
-                  placeholder="+1 234 567 8900"
+                  placeholder="+91 98765 43210"
                   className="w-full bg-gray-800/50 border-gray-600 text-white placeholder:text-gray-500"
                   style={{
                     borderColor: '#014051',
@@ -567,9 +569,10 @@ export function TicTacToeGame() {
         </div>
       )}
 
-      <div className="p-8 bg-black">
-        <div className="text-center mb-6">
-          <h1 className="text-4xl font-bold text-white mb-2">Tic-Tac-Toe</h1>
+      {!showNameForm && (
+        <div className="p-8 bg-black">
+          <div className="text-center mb-6">
+            <h1 className="text-4xl font-bold text-white mb-2">Tic-Tac-Toe</h1>
           <p className="text-gray-400 text-sm flex items-center justify-center gap-2">
             You are <span className="font-semibold" style={{ color: '#014051' }}>X</span>, Computer is <span className="font-semibold" style={{ color: '#32FE6B' }}>O</span>
           </p>
@@ -662,7 +665,8 @@ export function TicTacToeGame() {
             New Game
           </Button>
         </div>
-      </div>
+        </div>
+      )}
     </div>
   );
 }

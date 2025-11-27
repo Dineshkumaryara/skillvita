@@ -6,8 +6,8 @@ import { Header } from "@/components/header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SkillVita - Join Our Waitlist",
-  description: "Join the waitlist for SkillVita",
+  title: "Skillvita - Join Our Waitlist",
+  description: "Join the waitlist for Skillvita",
   icons: {
     icon: '/assets/skillvita_icon.svg',
   },
