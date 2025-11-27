@@ -121,8 +121,8 @@ export default function MLRITLeaderboard() {
           />
         </div>
 
-      <Card className="p-6">
-        <Table>
+      <Card className="p-6 rounded-xl">
+        <Table className="rounded-lg overflow-hidden">
           <TableHeader style={{ backgroundColor: '#014051' }}>
             <TableRow>
               <TableHead className="w-12" style={{ color: '#32FE6B' }}>#</TableHead>

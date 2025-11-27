@@ -382,28 +382,6 @@ export default function QuizComponent({ title, questions, domain }: QuizComponen
           <p className="text-gray-400">Great job, {formData.name}!</p>
         </div>
 
-        {/* User Details */}
-        <div className="p-6 rounded-lg space-y-3 mb-6 border-2" style={{ borderColor: '#014051', backgroundColor: 'rgba(1, 64, 81, 0.1)' }}>
-          <h3 className="font-semibold text-lg mb-4" style={{ color: '#32FE6B' }}>Submission Details</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <div>
-              <span className="text-sm text-gray-500">Name</span>
-              <p className="font-medium">{formData.name}</p>
-            </div>
-            <div>
-              <span className="text-sm text-gray-500">Email</span>
-              <p className="font-medium">{formData.email}</p>
-            </div>
-            <div>
-              <span className="text-sm text-gray-500">Phone</span>
-              <p className="font-medium">{formData.phone}</p>
-            </div>
-            <div>
-              <span className="text-sm text-gray-500">Domain</span>
-              <p className="font-medium">{title}</p>
-            </div>
-          </div>
-        </div>
       </Card>
     </div>
   );

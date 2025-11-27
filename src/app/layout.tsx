@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SkillVita - Join Our Waitlist",
   description: "Join the waitlist for SkillVita",
+  icons: {
+    icon: '/assets/skillvita_icon.svg',
+  },
 }
 
 export default function RootLayout({
