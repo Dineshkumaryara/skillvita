@@ -1,0 +1,421 @@
+[
+  {
+    "id": 1,
+    "title": "Learning Journey with DS",
+    "category": "workshop",
+    "image": "/images/events/image1.jpg",
+    "date": "10th August 2024 - 11th August 2024",
+    "time": {
+      "from": "11:00 AM",
+      "upto": "1:00 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "The Learning Journey with Data Science workshop is tailored for individuals looking to build a strong foundation in data science concepts, tools, and methodologies. This session will introduce participants to the data science lifecycle, data preprocessing techniques, statistical analysis, and machine learning fundamentals.",
+    "hostedBy": [
+      {
+        "name": "Tirunadh",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Vishwaja Reddy",
+        "photo": "/images/events/vishwaja_image.jpg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQo2zEhw701bHfG8MciJSoNo",
+    "isCompleted": false
+  },
+  {
+    "id": 2,
+    "title": "Web Scraping With Python",
+    "category": "workshop",
+    "image": "/images/events/image2.jpg",
+    "date": "17th Aug 2024 - 18th Aug 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "Join our special web scraping event to work on real-world projects and gain insights from professionals. Learn tools like BeautifulSoup and Scrapy with guidance from expert Vishwaja Reddy.",
+    "hostedBy": [
+      {
+        "name": "Annapurna",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Vishwaja Reddy",
+        "photo": "/images/events/vishwaja_image.jpg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQqdQM2bNvoj12F2kICir04w",
+    "isCompleted": false
+  },
+  {
+    "id": 3,
+    "title": "AI/ML-30 Days Free Course",
+    "category": "workshop",
+    "image": "/images/events/image3.jpg",
+    "date": "7th August 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "Take part in a 30-day AI/ML course covering ML, DL, and data analysis with Python. Mentor Bharat Sreeram will guide participants through projects and concepts.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Bharat Sreeram",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQpscozy9FdAOr6DrLeYaTE-",
+    "isCompleted": true
+  },
+  {
+    "id": 4,
+    "title": "15-Day FRONTEND Development Course",
+    "category": "workshop",
+    "image": "/images/events/image4.jpg",
+    "date": "12th August 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "This 15-day course helps you learn HTML, CSS, JS, and React. Guided by expert Narasimha Rao, attendees will build modern, responsive websites through real-world projects.",
+    "hostedBy": [
+      {
+        "name": "Satya",
+        "photo": "/images/events/satya_image.jpg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Narasimha Rao",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQqDnRgDFZBnW3118AXktTTn",
+    "isCompleted": true
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing",
+    "category": "workshop",
+    "image": "/images/events/image5.jpg",
+    "date": "19th Aug - 23rd Aug 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "A hands-on Cloud Computing course covering AWS, Azure, and GCP. Learn from industry expert Murali Mohan through labs and real-world projects.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Murali Mohan",
+        "photo": "/images/events/muralimohan_image.jpg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQounb3RX5DihlDQLLteeyh5",
+    "isCompleted": true
+  },
+  {
+    "id": 6,
+    "title": "25 Day Frontend Course",
+    "category": "workshop",
+    "image": "/images/events/image6.jpg",
+    "date": "2nd September 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "25 Day Frontend Course session by Narasimha Rao. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [
+      {
+        "name": "Tirunadh",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Narasimha Rao",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQqqw7nkXm_3udLyDwKzZC84",
+    "isCompleted": true
+  },
+  {
+    "id": 7,
+    "title": "5 Day Python course",
+    "category": "workshop",
+    "image": "/images/events/image7.jpg",
+    "date": "9th September 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "5 Day Python course session by Siva Mohan. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Siva Mohan",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQr9JXrzpYeyFa5Dgc7xliW7",
+    "isCompleted": true
+  },
+  {
+    "id": 8,
+    "title": "Cybersecurity x Job Simulation Workshop",
+    "category": "workshop",
+    "image": "/images/events/image8.jpg",
+    "date": "1st February 2025",
+    "time": {
+      "from": "11:00 AM",
+      "upto": "12:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "Cybersecurity x Job Simulation Workshop session by Tejaswini. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Tejaswini",
+        "photo": "/images/events/tejaswini.jpg"
+      }
+    ],
+    "youtubeLink": "https://youtu.be/aJNvdj2G2CQ",
+    "isCompleted": true
+  },
+  {
+    "id": 9,
+    "title": "Performance Marketing - 5-Day BootCamp",
+    "category": "workshop",
+    "image": "/images/events/image9.jpg",
+    "date": "14th - 18th October 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "Performance Marketing - 5-Day BootCamp session by Deepika Manoharan. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [
+      {
+        "name": "Abhishek",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Deepika Manoharan",
+        "photo": "/images/events/deepika_image.jpg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQp9h5eyKR0YwYpi3i-9LJZj",
+    "isCompleted": true
+  },
+  {
+    "id": 10,
+    "title": "GENAI For DA",
+    "category": "workshop",
+    "image": "/images/events/image10.jpg",
+    "date": "17th July 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "GENAI For DA session by Neha Gupta. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [
+      {
+        "name": "Jyothiraditya",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Neha Gupta",
+        "photo": "/images/events/Neha_Gupta.jpg"
+      }
+    ],
+    "youtubeLink": "https://youtube.com/live/v7ozs45wz0k",
+    "isCompleted": true
+  },
+  {
+    "id": 11,
+    "title": "Excel For DA",
+    "category": "workshop",
+    "image": "/images/events/image11.jpg",
+    "date": "20th July 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "Excel For DA session by Vishwaja Reddy. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Vishwaja Reddy",
+        "photo": "/images/events/vishwaja_image.jpg"
+      }
+    ],
+    "youtubeLink": "https://youtube.com/live/1jqwtqaSDtI",
+    "isCompleted": true
+  },
+  {
+    "id": 12,
+    "title": "15 Day AWS Bootcamp",
+    "category": "workshop",
+    "image": "/images/events/image12.jpg",
+    "date": "2nd September 2024",
+    "time": {
+      "from": "7:00 PM",
+      "upto": "8:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "15 Day AWS Bootcamp session by Vinayaka. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Vinayaka",
+        "photo": "/images/events/nodp_image.jpeg"
+      }
+    ],
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLAxw0KOXGLQpk9I45EMTmmJki_o6lEZZR",
+    "isCompleted": true
+  },
+  {
+    "id": 13,
+    "title": "AI engineer workshop",
+    "category": "workshop",
+    "image": "/images/events/ai_image.jpg",
+    "date": "5th April 2025",
+    "time": {
+      "from": "11:00 AM",
+      "upto": "12:30 PM"
+    },
+    "locationName": "Gachibowli, Hyderabad.",
+    "locationlink": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.249764800015!2d78.373711!3d17.432774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93000c5eb6bb%3A0x8d3c842f97b1fb7c!2sCoursevita!5e0!3m2!1sen!2sin!4v1742036768293!5m2!1sen!2sin\" width=\"720\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "address": "Plot 118, 3rd floor, Spaces and more, Business park, Lumbini Avenue, Gachibowli, Hyderabad, Telangana 500032",
+    "about": "AI engineer workshop (upcoming) session by Utpal Sinha. Learn and grow with practical hands-on training and expert guidance.",
+    "hostedBy": [],
+    "mentors": [
+      {
+        "name": "Utpal Sinha",
+        "photo": "/images/events/utpal_image.jpeg"
+      }
+    ],
+    "youtubeLink": "",
+    "isCompleted": true
+  },
+  {
+    "id": 14,
+    "title": "2-Day AI Engineer Workshop",
+    "category": "workshop",
+    "image": "/images/events/2day_ai_engineer.jpg",
+    "date": "19th April 2025 - 20th April 2025",
+    "time": {
+      "from": "5:00 PM",
+      "upto": "7:00 PM"
+    },
+    "locationName": "Online",
+    "locationlink": "",
+    "address": "Online Workshop - Zoom link shared upon registration",
+    "about": "This 2-Day AI Engineer Workshop is designed to kickstart your journey in AI and machine learning. Led by an IIT Delhi alumnus with over 10 years of experience, you'll learn real-world AI tools, build projects, and explore career paths in AI. The bootcamp includes hands-on coding, career guidance, and access to Coursevita’s job simulation tools.",
+    "hostedBy": [
+      {
+        "name": "Coursevita",
+        "photo": "/images/events/cv.svg"
+      }
+    ],
+    "mentors": [
+      {
+        "name": "Utpal Sinha",
+        "photo": "/images/events/utpal_image.jpeg"
+      }
+    ],
+    "youtubeLink": "",
+    "isCompleted": true
+  },
+  {
+    "id": 15,
+    "title": "Designathon-2025 by Coursevita",
+    "category" : "hackathon",
+    "image": "/images/events/designathon2025.jpg",
+    "date": "27th April 2025",
+    "time": {
+      "from": "9:00 AM",
+      "upto": "9:00 PM"
+    },
+    "locationName": "Hyderabad, Telangana",
+    "address": "Yet to be announced",
+    "about": "Coursevita's Designathon 2025 is a high-energy, 12-hour offline creative sprint happening in celebration of International Design Day. It brings together over 150-200 passionate creators—from designers to video editors—to ideate, collaborate, and showcase talent across dynamic challenges. With real-world tracks in UI/UX, social media content creation, and video editing, the event offers mentorship, hiring opportunities, and exciting prizes in an inspiring environment.",
+    "tracksAndHighlights": {
+      "tracks": [
+        {
+          "title": "Graphic Design & UI/UX",
+          "description": "Solve real-world design problems with user-centric solutions."
+        },
+        {
+          "title": "Social Media Content Creation",
+          "description": "Craft content for digital platforms that’s scroll-stopping and strategic."
+        },
+        {
+          "title": "Video Editing & Animation",
+          "description": "Tell stories through motion, editing, transitions, and visual effects."
+        }
+      ],
+      "participation": "Solo",
+      "entry": "Invite only (Submitting your profile increases the chances of approval)",
+      "perks": [
+        "Lunch, Snacks & Refreshments are on Us!",
+        "💼 Get Hired: On-spot internship & job opportunities through hiring partners.",
+        "🧑‍🎓 Learn from Experts: Live mentorship & feedback sessions with industry professionals.",
+        "🥇 Win Big: Exciting prizes, certificates, and spotlight features.",
+        "🧵 Build Community: Connect with other designers, creators, and changemakers."
+      ]
+    },
+    "hostedBy": [
+      {
+        "name": "Coursevita",
+        "photo": "/images/events/cv.svg"
+      }
+    ],
+    "youtubeLink": "",
+    "isCompleted": true
+  }
+   
+]

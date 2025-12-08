@@ -1,0 +1,26 @@
+<svg width="366" height="651" viewBox="0 0 366 651" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_17299_12388)">
+    <g clip-path="url(#clip1_17299_12388)">
+      <g opacity="0.2" filter="url(#filter0_f_17299_12388)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M-1443.09 918.14C-1427.87 778.725 -1321.3 671.362 -1255.23 547.694C-1196.28 437.326 -1166.06 308.401 -1072.82 225.022C-980.179 142.174 -846.706 133.536 -733.893 81.4706C-605.371 22.1607 -499.582 -111.323 -358.21 -104.767C-218.436 -98.2877 -113.664 24.8644 -6.70642 115.19C92.9054 199.317 182.702 293.003 247.082 406.428C311.018 519.074 364.825 641.824 365.75 771.363C366.645 898.15 304.184 1013.72 252.219 1129.33C202.264 1240.47 151.33 1351.64 65.8984 1438.45C-21.0775 1526.84 -134.005 1578.67 -244.762 1634.4C-370.326 1697.57 -493.972 1819.17 -631.3 1789.21C-771.174 1758.69 -806.719 1562.26 -927.559 1485.42C-1052.79 1405.79 -1241.66 1447.46 -1341.49 1337.59C-1439.44 1229.82 -1458.91 1062.97 -1443.09 918.14Z" fill="url(#paint0_linear_17299_12388)" fill-opacity="0.3"/>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_f_17299_12388" x="-1726.48" y="-2403.48" width="3624.71" height="4475.83" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="139.238" result="effect1_foregroundBlur_17299_12388"/>
+    </filter>
+    <linearGradient id="paint0_linear_17299_12388" x1="-1457.19" y1="923.888" x2="367.432" y2="775.827" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F6"/>
+      <stop offset="1" stop-color="#FFF0F6"/> <!-- Even lighter pink shade -->
+    </linearGradient>
+    <clipPath id="clip0_17299_12388">
+      <rect width="2372" height="2372" fill="white" transform="translate(-2006 -430)"/>
+    </clipPath>
+    <clipPath id="clip1_17299_12388">
+      <rect width="2372" height="2456.85" fill="white" transform="translate(-2006 -472.426)"/>
+    </clipPath>
+  </defs>
+</svg>

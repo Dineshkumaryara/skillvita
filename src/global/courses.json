@@ -1,0 +1,3006 @@
+[
+  {
+    "courseTitle": "DevOps with AWS",
+    "category": "DevOps with AWS",
+    "image" : "https://coursevita.com/static/media/aws.b94c1b1038d295637531.jpg",
+    "coursePath": "devops-aws",
+    "period": "100+ hours",
+    "assistance": "Placement Assistance",
+    "subTag": "DevOps with AWS Course with 100% Placement Assistance",
+    "costPrice": "75000",
+    "sellingPrice": "45000",
+    "courseDesc": "Our DevOps with AWS course with placement assistance which is in demand, helps to build a successful career in the tech industry. Learn DevOps tools, AWS services, and cloud management through real-world projects. Gain certification and job support to secure top roles in DevOps with AWS.",
+    "curriculumLink": "https://zfrmz.in/FullStackCurriculumLink",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "devopsWithAWS",
+    "resource": "Complete Study Material",
+    "imageKey": "devopsWithAWS",
+    "technology": "Devops",
+    "programSkills": [
+      "DevOps",
+      "Continuous Integration",
+      "CI/CD Pipeline Configuration"
+    ],
+    "keywords": [
+      "DevOps with AWS",
+      "DevOps Engineer",
+      "AWS",
+      "Cloud Computing",
+      "CI/CD",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "AWS Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "AWS Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "AWS Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "AWS Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer"
+    ],
+    "mentors": [
+      {
+        "name": "Murali Mohan Mabbu",
+        "tagLine": "9+ years of experience in DevOps and AWS",
+        "linkedIn": "https://www.linkedin.com/in/murali-mohan-mabbu-b7348299/",
+        "profileImg": "mohan"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "AWS Cloud Fundamentals",
+        "description": [
+          "Understand the concepts of physical and virtual servers.",
+          "Learn about public and private cloud computing models.",
+          "Explore AWS core services including IAM, EC2, S3, and VPC.",
+          "Set up load balancing, auto-scaling, and DNS."
+        ]
+      },
+      {
+        "moduleHeading": "Linux Fundamentals for Cloud Environments",
+        "description": [
+          "Master the Linux architecture and basic Linux commands.",
+          "Manage file permissions, user creation, and shell scripting.",
+          "Learn to use SSH and the VI editor for server management."
+        ]
+      },
+      {
+        "moduleHeading": "Python Programming Essentials",
+        "description": [
+          "Learn Python basics, including sequences, file operations, and modules.",
+          "Develop console-based and web applications using Flask.",
+          "Gain hands-on experience creating Python scripts."
+        ]
+      },
+      {
+        "moduleHeading": "Introduction to DevOps",
+        "description": [
+          "Understand the fundamentals of DevOps and its benefits.",
+          "Learn the stages and lifecycle of DevOps.",
+          "Explore various automation tools and CI/CD concepts."
+        ]
+      },
+      {
+        "moduleHeading": "DevOps on AWS",
+        "description": [
+          "Gain insights into AWS DevOps services.",
+          "Learn to use CodeBuild, CodeCommit, CodeDeploy, and CodePipeline.",
+          "Understand the basics of AWS CloudFormation."
+        ]
+      },
+      {
+        "moduleHeading": "Version Control with Git and GitHub",
+        "description": [
+          "Learn version control concepts and Git commands.",
+          "Master branching, merging, rebasing, and stashing.",
+          "Set up and manage Git repositories for collaborative development."
+        ]
+      },
+      {
+        "moduleHeading": "Build Automation with Maven",
+        "description": [
+          "Understand build tools and Maven architecture.",
+          "Learn to use Maven plugins, archetypes, and commands.",
+          "Integrate Jacoco for code coverage."
+        ]
+      },
+      {
+        "moduleHeading": "Containerization with Docker",
+        "description": [
+          "Learn Docker architecture and commands.",
+          "Build Docker images and push them to Docker Hub.",
+          "Run containers and manage container port binding."
+        ]
+      },
+      {
+        "moduleHeading": "Continuous Integration with Jenkins",
+        "description": [
+          "Set up and configure Jenkins for CI/CD pipelines.",
+          "Learn Jenkins master-slave architecture and plugins.",
+          "Create scripted and declarative pipelines."
+        ]
+      },
+      {
+        "moduleHeading": "Container Orchestration with Kubernetes",
+        "description": [
+          "Understand Kubernetes architecture, nodes, and pods.",
+          "Learn to create deployments and manage rolling updates.",
+          "Scale applications up and down using Kubernetes."
+        ]
+      },
+      {
+        "moduleHeading": "Configuration Automation with Ansible",
+        "description": [
+          "Learn Ansible architecture and components.",
+          "Write playbooks and ad-hoc commands to configure servers.",
+          "Create and manage Ansible roles."
+        ]
+      },
+      {
+        "moduleHeading": "Infrastructure as Code with Terraform",
+        "description": [
+          "Understand Terraform architecture and commands.",
+          "Write Terraform configurations to manage AWS resources.",
+          "Deploy and manage infrastructure as code."
+        ]
+      },
+      {
+        "moduleHeading": "Monitoring with Prometheus and Grafana",
+        "description": [
+          "Learn Prometheus architecture for system monitoring.",
+          "Visualize metrics using Grafana dashboards.",
+          "Set up alerts and monitor targets effectively."
+        ]
+      },
+      {
+        "moduleHeading": "Capstone Project and Career Preparation",
+        "description": [
+          "Work on real-world projects deploying scalable web applications.",
+          "Set up CI/CD pipelines and containerized deployments.",
+          "Receive guidance for resume building and interview preparation."
+        ]
+      }
+    ],
+    "mode": "Live Sessions",
+    "level": "Intermediate",
+    "efforts": "10hrs/Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "AWS codedeploy",
+      "Cloud Formation",
+      "AWS EC2",
+      "AWS S3",
+      "AWS Lambda",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "AWS IAM",
+      "AWS VPC",
+      "Terraform",
+      "AWS RDS",
+      "Ansible",
+      "AWS EBS"
+    ],
+    "skills": [
+      "AWS Cloud Architecture",
+      "DevOps Principles",
+      "Infrastructure as Code (IaC)",
+      "Continuous Integration and Continuous Deployment (CI/CD)",
+      "Containerization",
+      "Monitoring and Logging"
+    ],
+    "recruiters": [
+      "Anblicks",
+      "Applied_Materials",
+      "artingDigitals",
+      "capgemini",
+      "Cognizant",
+      "Hexaware",
+      "Infosys",
+      "jadeGlobal ",
+      "luxoft",
+      "Matillion",
+      "mindTickler",
+      "Qentelli",
+      "Rackspace",
+      "streakAi",
+      "syllogistics",
+      "TechFilter",
+      "trinity",
+      "UST_global",
+      "VFind_solutions",
+      "Vy_systems"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of AWS & Cloud",
+        "before": "Work on real datasets from partner companies",
+        "after": "Work on real datasets from partner companies"
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time",
+        "after": "Hands-on experience through real-world projects and case studies."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited technical and soft skills",
+        "after": "Comprehensive interview preparation through mock sessions and expert tips."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in technical and problem-solving skills.",
+        "after": "Developed increased confidence to tackle real-world challenges."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is DevOps with AWS in demand in 2025?",
+        "answer": "Yes, DevOps with AWS is highly in demand in 2025 as businesses increasingly adopt AWS for scalable and efficient cloud solutions. AWS tools like CodePipeline and Lambda streamline automation, making DevOps expertise essential for faster deployments and innovation."
+      },
+      {
+        "question": "What are the roles and responsibilities for DevOps with AWS?",
+        "answer": "DevOps professionals manage scalable AWS infrastructure, automate CI/CD pipelines, and ensure security and compliance using AWS tools like CloudFormation, CodePipeline, and IAM. They monitor performance with CloudWatch, optimize workflows, and deploy containerized applications with ECS and EKS. This course prepares you to excel in these essential DevOps roles."
+      },
+      {
+        "question": "What is the average salary for professionals in DevOps with AWS?",
+        "answer": "The average salary for DevOps professionals with AWS skills in India varies by experience Entry-Level: ₹5-8 LPA, Mid-Level: ₹8-15 LPA, Top-Level: ₹15-30 LPA or more, depending on expertise and company size.These figures can fluctuate based on location and industry demand."
+      },
+      {
+        "question": "How does learning the fundamentals at Coursevita set you up for success?",
+        "answer": "At Coursevita, mastering the basics is essential for long-term success in DevOps with AWS. Our structured approach ensures you build a strong foundation, avoid learning gaps, and understand critical concepts like cloud architecture and CI/CD pipelines. This not only boosts confidence but also makes you job-ready for real-world challenges."
+      },
+      {
+        "question": "What type of learning experience can I expect?",
+        "answer": "In our course, you can expect a hands-on, interactive learning experience with real-world applications. You'll engage in practical exercises, live discussions, and project-based learning that will help you build a strong understanding of key concepts. Our expert instructors will guide you through each step, ensuring a comprehensive and enriching experience."
+      },
+      {
+        "question": "What is the EMI payment process?",
+        "answer": "At Coursevita, you can pay for courses in easy EMIs. Select the course, choose the EMI option at checkout, pick your preferred bank, and complete the payment. Monthly installments will be automatically deducted based on your chosen tenure. For details, contact our support team - support@coursevita.com"
+      },
+      {
+        "question": "What are the profiles of the tutors?",
+        "answer": "Our tutors at Coursevita are experienced professionals with advanced degrees and certifications in fields like Data Science, Data Analytics, DevOps, and Cloud Computing (AWS and Azure). They bring years of hands-on industry experience and are skilled educators committed to student success. With expertise in cutting-edge technologies, they provide practical, real-world insights to help learners achieve their goals."
+      },
+      {
+        "question": "How will my doubts get solved?",
+        "answer": "Your doubts will be addressed through interactive Q&A sessions, discussion forums, and live chat support. You can also email our support team (support@coursevita.com) for personalized assistance, or connect with instructors during scheduled office hours for one-on-one help."
+      },
+      {
+        "question": "What is the refund policy at Coursevita?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details check out the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "DevOps Engineer",
+        "openings": "15K+",
+        "avgSalary": "₹7 - ₹14 LPA"
+      },
+      {
+        "name": "Cloud Engineer",
+        "openings": "10K+",
+        "avgSalary": "₹6 - ₹12 LPA"
+      },
+      {
+        "name": "AWS Architect",
+        "openings": "8K+",
+        "avgSalary": "₹12 - ₹20 LPA"
+      },
+      {
+        "name": "Site Reliability Engineer",
+        "openings": "15K+",
+        "avgSalary": "₹10 - ₹18 LPA"
+      }
+    ],
+    "ambitionBoxlinks": "https://www.naukri.com/devops-engineer-jobs",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=3936828791&keywords=devops%20engineer%20job%20roles&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=3847045021%2C3936179448%2C3937576726",
+    "certificates": {
+      "blackVersion": "/images/certificates/devops-aws-bw.webp",
+      "colorVersion": "/images/certificates/devops-aws-color.webp"
+    }
+  },
+  {
+    "courseTitle": "DevOps with Azure",
+    "category": "DevOps with Azure",
+    "image" : "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/freepik_edit_Devops-with-Azure.jpg",
+    "coursePath": "devops-azure",
+    "period": "100+ hours",
+    "assistance": "Placement Assistance",
+    "subTag": "DevOps with Azure Course with 100% Placement Assistance",
+    "costPrice": "75000",
+    "sellingPrice": "45000",
+    "courseDesc": "Our DevOps with Azure course, designed to meet industry demands, helps you kickstart a thriving career in tech. Master DevOps tools, Azure services,and cloud management with hands-on real-world projects. Earn certifications and receive job assistance to land top roles in DevOps with Azure.",
+    "curriculumLink": "https://zfrmz.in/FullStackCurriculumLink",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "devopsWithAzure",
+    "resource": "Complete Study Material",
+    "imageKey": "devopsWithAzure",
+    "technology": "Devops",
+    "programSkills": ["Continuous Integration", "CI/CD Pipeline Configuration"],
+    "keywords": [
+      "DevOps with Azure",
+      "DevOps Engineer",
+      "Azure",
+      "Cloud Computing",
+      "CI/CD",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "Azure Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "Azure Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "Azure Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer",
+      "DevOps Specialist",
+      "DevOps Architect",
+      "DevOps Consultant",
+      "DevOps Manager",
+      "DevOps Engineer",
+      "Azure Engineer",
+      "Cloud Engineer",
+      "CI/CD Engineer"
+    ],
+    "mentors": [
+      {
+        "name": "Satyajit Samantray",
+        "tagLine": "7+ Years on Exp on Devops and Azure",
+        "linkedIn": "https://www.linkedin.com/in/satyajit-samantray-b30a7075/",
+        "profileImg": "satyajit"
+      },
+      {
+        "name": "Surekha Ainaparthi",
+        "tagLine": "DevOps Trainer",
+        "linkedIn": "https://www.linkedin.com/in/surekha-ainaparthi-92705330a/",
+        "profileImg": "surekha"
+      },
+      {
+        "name": "Abdul Raheem",
+        "tagLine": "5+ Years on Exp on Devops and Azure",
+        "linkedIn": "https://www.linkedin.com/in/abdulraheem-dev98/",
+        "profileImg": "raheem"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to Cloud Computing and Azure",
+        "description": ["IaaS, PaaS, SaaS concepts and their use cases."]
+      },
+      {
+        "moduleHeading": "Azure Core Services",
+        "description": [
+          "Core services like Virtual Machines (VMs), Azure App Services.",
+          "Azure's global infrastructure: regions, availability zones,and resource groups."
+        ]
+      },
+      {
+        "moduleHeading": "Azure Portal and Command Line Tools",
+        "description": [
+          "Navigating the Azure Portal for managing resources.",
+          "Azure CLI and Azure PowerShell"
+        ]
+      },
+      {
+        "moduleHeading": "Networking in Azure",
+        "description": [
+          "Virtual networks (VNets), subnets, and network security groups (NSGs).",
+          "Azure Load Balancer, VPN Gateway, and Azure DNS."
+        ]
+      },
+      {
+        "moduleHeading": "Azure Identity and Access Management (IAM)",
+        "description": [
+          "Azure Active Directory (Azure AD), Root tenant, roles, and role-based access control (RBAC).",
+          "Manage users, groups, and permissions securely."
+        ]
+      },
+      {
+        "moduleHeading": "Azure Storage Solutions",
+        "description": [
+          "Azure Blob Storage, Azure Files, and Azure Disk Storage.",
+          "Storage access tiers and redundancy options like LRS,ZRS, and GRS."
+        ]
+      },
+      {
+        "moduleHeading": "Azure Databases",
+        "description": [
+          "Database options like Azure SQL Database, Cosmos DB, and Azure Database for MySQL/PostgreSQL."
+        ]
+      },
+      {
+        "moduleHeading": "Monitoring and Management Tools",
+        "description": [
+          "Azure Monitor, Azure Log Analytics, and Azure Resource Manager (ARM) templates.",
+          "Azure Subscriptions, Cost analysis and billing options."
+        ]
+      },
+      {
+        "moduleHeading": "Security in Azure",
+        "description": [
+          "Management groups, Azure Security Center and Azure Defender.",
+          "Azure Key Vault for managing secrets and encryption keys."
+        ]
+      }
+    ],
+    "level": "Intermediate",
+    "mode": "Live Sessions",
+    "efforts": "10hrs/Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "Virtual Machine",
+      "Azure blob storage",
+      "Virtal network",
+      "Azure app service",
+      "Azure Kubernetes",
+      "Resource Group",
+      "Azure CLI",
+      "Azure Subscription",
+      "Network Security",
+      "Azure Load Balancer",
+      "Azure VPN Gateway",
+      "Azure DNS",
+      "Azure AD",
+      "Azure RBAC",
+      "Azure Files",
+      "Azure Disk Storage",
+      "Azure MySQL DB",
+      "Azure Monitor",
+      "Cost Management",
+      "Azure Defender"
+    ],
+    "skills": [
+      "Azure DevOps Services",
+      "Azure Resource Manager (ARM) Templates",
+      "Infrastructure as Code (IaC) with Bicep",
+      "Azure Pipelines for CI/CD",
+      "Containerization with Azure Kubernetes Service (AKS)",
+      "Azure Monitor and Application Insights",
+      "Azure Automation and Runbooks",
+      "Azure Security Best Practices",
+      "Azure Repos and Git Integration"
+    ],
+    "recruiters": [
+      "birlaSoft",
+      "CGI",
+      "Dazn",
+      "hitachi",
+      "interSoft",
+      "LevoAi",
+      "Magna_steel",
+      "Microsoft",
+      "Muoro",
+      "Optum",
+      "Pythian",
+      "speakX_ai",
+      "Synopsys",
+      "TCS",
+      "techm",
+      "ust_white",
+      "Veeva",
+      "Virtusa",
+      "Cognizant",
+      "UST_global",
+      "artingDigitals"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of Azure & Cloud",
+        "before": "Limited understanding of Azure cloud services and their applications.",
+        "after": "Work on real-world Azure projects to master cloud concepts and applications."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience through real-world projects and case studies on Azure."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited technical and soft skills.",
+        "after": "Comprehensive interview preparation through mock sessions and Azure-specific expert guidance."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced Azure mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in technical and cloud problem-solving skills.",
+        "after": "Developed increased confidence to tackle Azure-related challenges."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is DevOps with Azure in demand in 2025?",
+        "answer": "Yes, DevOps with Azure is highly in demand in 2025 as businesses increasingly adopt Azure for scalable and efficient cloud solutions. Azure tools like Pipelines and Functions streamline automation, making DevOps expertise essential for faster deployments and innovation."
+      },
+      {
+        "question": "What are the roles and responsibilities for DevOps with Azure?",
+        "answer": "DevOps professionals manage scalable Azure infrastructure, automate CI/CD pipelines, and ensure security and compliance using Azure tools like ARM Templates, Pipelines, and Azure AD. They monitor performance with Azure Monitor, optimize workflows, and deploy containerized applications with AKS and Azure DevOps. This course prepares you to excel in these essential DevOps roles."
+      },
+      {
+        "question": "How does learning the fundamentals at Coursevita set you up for success?",
+        "answer": "At Coursevita, mastering the basics is essential for long-term success in DevOps with Azure. Our structured approach ensures you build a strong foundation, avoid learning gaps, and understand critical concepts like Azure cloud architecture, Azure Repos, Azure Pipelines, Infrastructure as Code (IaC) with ARM templates, Azure Kubernetes Service (AKS), and CI/CD pipelines. This comprehensive learning not only boosts confidence but also makes you job-ready for real-world challenges."
+      },
+      {
+        "question": "What type of learning experience can I expect?",
+        "answer": "In our course, you can expect a hands-on, interactive learning experience with real-world applications. You'll engage in practical exercises, live discussions, and project-based learning that will help you build a strong understanding of key concepts. Our expert instructors will guide you through each step, ensuring a comprehensive and enriching experience."
+      },
+      {
+        "question": "What is the EMI payment process?",
+        "answer": "At Coursevita, you can pay for courses in easy EMIs. Select the course, choose the EMI option at checkout, pick your preferred bank, and complete the payment. Monthly installments will be automatically deducted based on your chosen tenure. For details, contact our support team - support@coursevita.com"
+      },
+      {
+        "question": "What are the profiles of the tutors?",
+        "answer": "Our tutors at Coursevita are experienced professionals with advanced degrees and certifications in fields like Data Science, Data Analytics, DevOps, and Cloud Computing (Azure and AWS). They bring years of hands-on industry experience and are skilled educators committed to student success. With expertise in cutting-edge technologies, they provide practical, real-world insights to help learners achieve their goals."
+      },
+      {
+        "question": "How will my doubts get solved?",
+        "answer": "Your doubts will be addressed through interactive Q&A sessions, discussion forums, and live chat support. You can also email our support team (support@coursevita.com) for personalized assistance, or connect with instructors during scheduled office hours for one-on-one help."
+      },
+      {
+        "question": "What is the refund policy at Coursevita?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details, check out the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "Cloud Operations Specialist",
+        "openings": "10k+",
+        "avgSalary": "₹6 - ₹15 LPA"
+      },
+      {
+        "name": "Site Reliability Engineer (SRE)",
+        "openings": "15k+",
+        "avgSalary": "₹10 - ₹25 LPA"
+      },
+      {
+        "name": "Infrastructure Automation Engineer",
+        "openings": "12k+",
+        "avgSalary": " ₹7 - ₹18 LPA"
+      },
+      {
+        "name": "Cloud Solutions Architect",
+        "openings": "8k+",
+        "avgSalary": " ₹15 - ₹35 LPA"
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/devops-azure-bw.webp",
+      "colorVersion": "/images/certificates/devops-azure-color.webp"
+    },
+    "ambitionBoxlinks": "https://www.ambitionbox.com/jobs/azure-devops-jobs-ski",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=4102004572&geoId=102713980&keyword[…]_PAGE_KEYWORD_AUTOCOMPLETE&originalSubdomain=in&refresh=true"
+  },
+  {
+    "courseTitle": "Data Science",
+    "coursePath": "dataScience",
+    "category": "Data Science",
+    "image": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/dataScience.webp",
+    "period": "100+ hours",
+    "assistance": "Placement Assistance",
+    "subTag": "Data Science",
+    "costPrice": "75000",
+    "sellingPrice": "45000",
+    "courseDesc": "In this comprehensive data science course, you'll learn how to extract meaningful insights from complex data sets. From data wrangling to building predictive models, this course covers the entire data science pipeline.",
+    "curriculumLink": "https://zfrmz.in/ZfhpSbqo4iImLIDP9C53",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "dataScience",
+    "resource": "Complete Study Material",
+    "imageKey": "dataScience",
+    "technology": "Data Science",
+    "keywords": [
+      "Data Science",
+      "Data & AI",
+      "Data Analytics",
+      "Data Visualization",
+      "MLOps",
+      "Full Stack Development",
+      "Web Development",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Engineering",
+      "Data Analysis",
+      "Data Management",
+      "Data Interpretation",
+      "Data Visualization",
+      "Data Wrangling",
+      "Predictive Modeling",
+      "Machine Learning Models",
+      "Data Science Pipeline",
+      "Data Collection",
+      "Data Cleaning",
+      "Data Preprocessing",
+      "Data Exploration",
+      "Statistical Analysis",
+      "Data Interpretation",
+      "Data Reporting",
+      "Data Visualization Tools",
+      "Dashboard Design",
+      "Storytelling with Data",
+      "Advanced Visualization Techniques",
+      "MLOps Principles",
+      "Version Control",
+      "Pipeline Automation",
+      "Model Deployment",
+      "Monitoring and Optimization",
+      "Front-End Development",
+      "Back-End Development",
+      "Web Development Technologies",
+      "Responsive Design",
+      "Interactive User Interfaces",
+      "Data Science Principles",
+      "Data Science Tools",
+      "Data Science Algorithms",
+      "Data Science Models",
+      "Data Science Techniques",
+      "Data Science Projects",
+      "Data Science Skills",
+      "Data Science Careers",
+      "Data Science Jobs",
+      "Data Science Salary",
+      "Data Science Course",
+      "Data Science Training",
+      "Data Science Certification",
+      "Data Science Bootcamp",
+      "Data Science Program",
+      "Data Science Curriculum",
+      "Data Science Modules",
+      "Data Science Level",
+      "Data Science Mode",
+      "Data Science Efforts",
+      "Data Science Projects Guided",
+      "Data Science Tools",
+      "Data Science Skills",
+      "Data Science FAQs",
+      "Data Science Job Roles",
+      "Data Science AmbitionBoxlinks",
+      "Data Science LinkedinJobRoles"
+    ],
+    "mentors": [
+      {
+        "name": "Neha Gupta",
+        "tagLine": "IIT Madras, Ex-JPMC (10+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/neha-gupta-7756118a/",
+        "profileImg": "neha"
+      },
+      {
+        "name": "Revanth Guthala",
+        "tagLine": "Ex- Airtel, Ex- YULU",
+        "linkedIn": "https://www.linkedin.com/in/revanth-guthala-7a0b3abb/",
+        "profileImg": "revanth"
+      },
+      {
+        "name": "Nikansha Jain",
+        "tagLine": "Data Scientist, IBM (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/nikanksha-jain-12b67762/",
+        "profileImg": "nikanksha"
+      },
+      {
+        "name": "Ejaz Ahmed",
+        "tagLine": "Sr. Data Scientist (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/ejaz-ahmed-qazi/",
+        "profileImg": "Ejaz"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to Data Science Fundamentals",
+        "description": [
+          "Understand foundational statistical concepts and data types (qualitative and quantitative).",
+          "Learn measures of central tendency (mean, median, mode) and dispersion (variance, standard deviation).",
+          "Explore probability distributions, including Normal, Binomial, and Poisson distributions."
+        ]
+      },
+      {
+        "moduleHeading": "Mastering Microsoft Excel for Data Analysis",
+        "description": [
+          "Develop skills in statistical analysis, data cleaning, and preparation using Excel.",
+          "Utilize advanced Excel features like Pivot Tables, Pivot Charts, and lookup functions.",
+          "Learn basic Excel macros and formulas to automate data tasks."
+        ]
+      },
+      {
+        "moduleHeading": "Python Programming Essentials",
+        "description": [
+          "Gain proficiency in Python programming fundamentals, including data types, variables, and control structures.",
+          "Work with Python libraries like NumPy, Pandas, Matplotlib, and Seaborn for data manipulation and visualization.",
+          "Learn advanced string handling, exception handling, and Jupyter Notebook usage."
+        ]
+      },
+      {
+        "moduleHeading": "SQL for Data Querying and Management",
+        "description": [
+          "Master SQL fundamentals, including basic queries, data aggregation, and joins.",
+          "Explore subqueries, nested queries, and advanced SQL techniques.",
+          "Understand relational databases and data manipulation practices."
+        ]
+      },
+      {
+        "moduleHeading": "Data Visualization with Power BI",
+        "description": [
+          "Learn to create interactive dashboards and visualizations using Power BI.",
+          "Understand Power BI building blocks, data connections, and formatting techniques.",
+          "Master advanced visualization techniques and publish reports."
+        ]
+      },
+      {
+        "moduleHeading": "Data Wrangling and Preprocessing Techniques",
+        "description": [
+          "Handle large datasets efficiently and perform feature engineering.",
+          "Learn feature scaling, normalization, and handling categorical variables.",
+          "Work with distributed computing frameworks like Dask and Spark."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Exploratory Data Analysis (EDA)",
+        "description": [
+          "Master advanced visualization techniques, including geo-spatial visualization.",
+          "Apply statistical modeling, outlier detection, and dimensionality reduction (PCA, T-SNE, UMAP).",
+          "Create interactive plots with Plotly and Bokeh."
+        ]
+      },
+      {
+        "moduleHeading": "Linear Regression and Hypothesis Testing",
+        "description": [
+          "Understand linear and logistic regression models.",
+          "Learn hypothesis testing techniques, including t-tests, chi-square tests, and ANOVA.",
+          "Apply residual analysis and model diagnostics."
+        ]
+      },
+      {
+        "moduleHeading": "Supervised Learning Algorithms",
+        "description": [
+          "Explore supervised learning techniques such as logistic regression, decision trees, and SVMs.",
+          "Learn to evaluate models using metrics like ROC curves and precision-recall curves.",
+          "Handle class imbalance and apply Naive Bayes classification."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Machine Learning Techniques",
+        "description": [
+          "Master ensemble methods like bagging and boosting.",
+          "Learn advanced regression techniques, including Ridge and Lasso regression.",
+          "Understand deep learning architectures like CNNs and RNNs."
+        ]
+      },
+      {
+        "moduleHeading": "Unsupervised Learning Algorithms",
+        "description": [
+          "Learn clustering techniques like DBSCAN, OPTICS, and hierarchical clustering.",
+          "Apply dimensionality reduction techniques like PCA and association rule mining.",
+          "Evaluate clustering models effectively."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Model Evaluation and Hyperparameter Tuning",
+        "description": [
+          "Learn automated hyperparameter tuning methods (Grid Search, Random Search, Bayesian Optimization).",
+          "Understand advanced cross-validation techniques and performance metrics.",
+          "Optimize model performance for real-world applications."
+        ]
+      },
+      {
+        "moduleHeading": "Deep Learning and Generative AI",
+        "description": [
+          "Explore deep learning models such as CNNs, RNNs, and Transformers.",
+          "Learn about Generative AI, language models (LLMs), and Retrieval-Augmented Generation (RAG).",
+          "Apply deep learning in computer vision and NLP tasks."
+        ]
+      },
+      {
+        "moduleHeading": "Working with Image and Video Data",
+        "description": [
+          "Master image preprocessing, classification, and object detection.",
+          "Learn video processing techniques and apply CNNs to video data.",
+          "Deploy image and video models for scalable applications."
+        ]
+      },
+      {
+        "moduleHeading": "Natural Language Processing (NLP) Techniques",
+        "description": [
+          "Learn sentiment analysis, named entity recognition, and text classification.",
+          "Explore advanced NLP methods using RNNs, Transformers, and BERT models.",
+          "Apply text preprocessing and analysis for real-world use cases."
+        ]
+      },
+      {
+        "moduleHeading": "Capstone Project and Career Development",
+        "description": [
+          "Complete an end-to-end data science project applying all learned skills.",
+          "Develop your professional portfolio with real-world projects.",
+          "Receive guidance on resume building, interview preparation, and career growth."
+        ]
+      }
+    ],
+    "level": "Intermediate",
+    "mode": "Live Sessions",
+    "efforts": "10hrs/ Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "MS Excel",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "TensorFlow",
+      "SQL",
+      "Power BI",
+      "Seaborn",
+      "Keras",
+      "Jupyter",
+      "Matplotlib"
+    ],
+    "skills": [
+      "Data Cleaning and Preprocessing",
+      "Exploratory Data Analysis (EDA)",
+      "Machine Learning",
+      "Big Data Technologies & Data Engineering",
+      "Data Visualization"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of Data Science & AI",
+        "before": "Limited exposure to real-world datasets and AI concepts.",
+        "after": "Work on real datasets from partner companies and gain AI expertise."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience through real-world projects and case studies in data science."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited technical and soft skills.",
+        "after": "Comprehensive interview preparation through mock sessions and expert guidance."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced data science mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in technical and analytical problem-solving skills.",
+        "after": "Developed increased confidence to tackle real-world data science challenges."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the duration of the Data Science course?",
+        "answer": "The course lasts for 4 months."
+      },
+      {
+        "question": "What skills will I learn in this course?",
+        "answer": "You will learn data Science principles, how to use data Science tools, dashboard design, storytelling with data, and advanced techniques."
+      },
+      {
+        "question": "How many hours per week should I dedicate to this course?",
+        "answer": "You should plan to spend around 10 hours per week on the course."
+      },
+      {
+        "question": "What tools will I use during the course?",
+        "answer": "You will use Python, NumPy, Scikit-learn, and Tensor Flow."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, the course is suitable for beginners and progresses to intermediate-level techniques."
+      },
+      {
+        "question": "Will there be any real-world projects?",
+        "answer": "Yes, you will work on hands-on projects and case studies, including 5+ guided projects and a capstone project."
+      },
+      {
+        "question": "What kind of support will I receive during the course?",
+        "answer": "You will receive support from instructors and have access to a community of peers for collaboration and discussion."
+      },
+      {
+        "question": "What if I have more questions?",
+        "answer": "If you have additional questions, please contact our support team at reachus@coursevita.com"
+      },
+      {
+        "question": "What is the refund policy for Coursevita program?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details checkout the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "Data Analyst",
+        "avgSalary": "₹4 - ₹9 LPA",
+        "openings": "20K+"
+      },
+      {
+        "name": "Data Scientist",
+        "avgSalary": "₹8 - ₹19 LPA",
+        "openings": "7K+"
+      },
+      {
+        "name": "Data Engineer",
+        "avgSalary": "₹5 - ₹16 LPA",
+        "openings": "35K+"
+      },
+      {
+        "name": "Data Architect",
+        "avgSalary": "₹18 - ₹30 LPA",
+        "openings": "10K+"
+      },
+      {
+        "name": "Data Mining Engineer",
+        "avgSalary": "₹3.5 - ₹5 LPA",
+        "openings": "70K+"
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/dsbw.png",
+      "colorVersion": "/images/certificates/dscolour.png"
+    },
+    "ambitionBoxlinks": "https://www.ambitionbox.com/profile/data-scientist-jobs",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=3932913303&geoId=102713980&keywords=data%20science%20job%20roles&location=India&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true"
+  },
+  {
+    "courseTitle": "Data Analytics",
+    "category": "Data Analytics",
+    "coursePath": "data-analytics",
+    "image": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/Rectangle.webp",
+    "period": "180 Days",
+    "assistance": "Placement Assistance",
+    "subTag": "Data Analytics",
+    "costPrice": "65000",
+    "sellingPrice": "35000",
+    "courseDesc": "This course is designed to equip you with the skills required for data analysis, a crucial aspect of decision-making processes in businesses. From data collection to interpretation, you will learn various techniques and tools to analyse data effectively.",
+    "curriculumLink": "https://zfrmz.in/ZfhpSbqo4iImLIDP9C53",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "dataAnalytics",
+    "resource": "Complete Study Material",
+    "imageKey": "Rectangle",
+    "technology": "Data Science",
+    "programSkills": [
+      "Data Visualization",
+      "Data Interpretation",
+      "Problem-Solving",
+      "Exploratory Data Analysis (EDA)",
+      "Data Preprocessing",
+      "Data Cleaning",
+      "Feature Engineering",
+      "Data Analysis",
+      "Python",
+      "Machine Learning"
+    ],
+    "keywords": [
+      "Data Science",
+      "Data & AI",
+      "Data Analytics",
+      "Data Visualization",
+      "MLOps",
+      "Full Stack Development",
+      "Web Development",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Engineering",
+      "Data Analysis",
+      "Data Management",
+      "Data Interpretation",
+      "Data Visualization",
+      "Data Wrangling",
+      "Predictive Modeling",
+      "Machine Learning Models",
+      "Data Science Pipeline",
+      "Data Collection",
+      "Data Cleaning",
+      "Data Preprocessing",
+      "Data Exploration",
+      "Statistical Analysis",
+      "Data Interpretation",
+      "Data Reporting",
+      "Data Visualization Tools",
+      "Dashboard Design",
+      "Storytelling with Data",
+      "Advanced Visualization Techniques",
+      "MLOps Principles",
+      "Version Control",
+      "Pipeline Automation",
+      "Model Deployment",
+      "Monitoring and Optimization",
+      "Front-End Development",
+      "Back-End Development",
+      "Web Development Technologies",
+      "Responsive Design",
+      "Interactive User Interfaces",
+      "Data Science Principles",
+      "Data Science Tools",
+      "Data Science Algorithms",
+      "Data Science Models",
+      "Data Science Techniques",
+      "Data Science Projects",
+      "Data Science Skills",
+      "Data Science Careers",
+      "Data Science Jobs",
+      "Data Science Salary",
+      "Data Science Course",
+      "Data Science Training",
+      "Data Science Certification",
+      "Data Science Bootcamp",
+      "Data Science Program",
+      "Data Science Curriculum",
+      "Data Science Modules",
+      "Data Science Level",
+      "Data Science Mode",
+      "Data Science Efforts",
+      "Data Science Projects Guided",
+      "Data Science Tools",
+      "Data Science Skills",
+      "Data Science FAQs",
+      "Data Science Job Roles",
+      "Data Science AmbitionBoxlinks",
+      "Data Science LinkedinJobRoles"
+    ],
+    "mentors": [
+      {
+        "name": "Neha Gupta",
+        "tagLine": "IIT Madras, Ex-JPMC (10+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/neha-gupta-7756118a/",
+        "profileImg": "neha"
+      },
+      {
+        "name": "Revanth Guthala",
+        "tagLine": "Ex- Airtel, Ex- YULU",
+        "linkedIn": "https://www.linkedin.com/in/revanth-guthala-7a0b3abb/",
+        "profileImg": "revanth"
+      },
+      {
+        "name": "Nikansha Jain",
+        "tagLine": "Data Scientist, IBM (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/nikanksha-jain-12b67762/",
+        "profileImg": "nikanksha"
+      },
+      {
+        "name": "Ejaz Ahmed",
+        "tagLine": "Sr. Data Scientist (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/ejaz-ahmed-qazi/",
+        "profileImg": "Ejaz"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to Data Analysis Fundamentals",
+        "description": [
+          "Gain foundational knowledge of statistics and data types, including qualitative and quantitative data.",
+          "Learn measures of central tendency (mean, median, mode) to summarize data effectively.",
+          "Explore probability distributions such as Normal, Binomial, and Poisson distributions."
+        ]
+      },
+      {
+        "moduleHeading": "Mastering Microsoft Excel for Data Analytics",
+        "description": [
+          "Develop expertise in statistical analysis, data cleaning, and preparation using Excel.",
+          "Utilize advanced features like Pivot Tables and Pivot Charts for efficient data visualization.",
+          "Learn essential Excel functions and formulas for analytical tasks."
+        ]
+      },
+      {
+        "moduleHeading": "SQL for Data Querying and Management",
+        "description": [
+          "Understand the fundamentals of SQL for querying relational databases.",
+          "Master data aggregation, summarization, and join operations for combining datasets.",
+          "Explore advanced techniques like subqueries and nested queries to handle complex data scenarios."
+        ]
+      },
+      {
+        "moduleHeading": "Python Programming for Data Analytics",
+        "description": [
+          "Learn the essentials of Python programming, including variables, data types, and control structures.",
+          "Work with core Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn for data manipulation and visualization.",
+          "Gain proficiency in handling data structures like lists, sets, tuples, and dictionaries."
+        ]
+      },
+      {
+        "moduleHeading": "Data Visualization with Power BI",
+        "description": [
+          "Get introduced to Power BI and its key building blocks for effective data visualization.",
+          "Learn to manage data connections, create advanced visualizations, and design interactive dashboards.",
+          "Discover best practices for publishing and sharing Power BI reports."
+        ]
+      },
+      {
+        "moduleHeading": "Exploratory Data Analysis (EDA) Techniques",
+        "description": [
+          "Understand data preprocessing techniques, including handling missing values and outliers.",
+          "Learn web scraping methods using BeautifulSoup and Scrapy for data collection.",
+          "Apply EDA techniques to uncover patterns, trends, and insights in datasets."
+        ]
+      },
+      {
+        "moduleHeading": "Data Visualization with Tableau",
+        "description": [
+          "Master Tableau for preparing, cleaning, and visualizing data effectively.",
+          "Create interactive dashboards and visualizations to communicate insights clearly.",
+          "Learn to publish and share Tableau workbooks for collaborative analysis."
+        ]
+      },
+      {
+        "moduleHeading": "Machine Learning and Advanced Analytics",
+        "description": [
+          "Explore the fundamentals of machine learning, including regression and classification models.",
+          "Delve into advanced analytics techniques such as clustering, association rule learning, and time series analysis.",
+          "Understand the end-to-end process of developing machine learning models."
+        ]
+      },
+      {
+        "moduleHeading": "Business Analytics and Real-World Applications",
+        "description": [
+          "Learn to apply analytical techniques to solve real-world business challenges.",
+          "Gain insights from case studies and practical examples of data-driven decision-making.",
+          "Understand how analytics can drive efficiency and strategic outcomes in various industries."
+        ]
+      },
+      {
+        "moduleHeading": "Data Ethics, Privacy, and Governance",
+        "description": [
+          "Understand data privacy, security, and ethical considerations in data analytics.",
+          "Learn bias prevention techniques and ethical guidelines for data handling.",
+          "Explore frameworks and strategies for implementing effective data governance."
+        ]
+      },
+      {
+        "moduleHeading": "Capstone Project and Career Preparation",
+        "description": [
+          "Complete an end-to-end data analysis project to showcase your skills.",
+          "Develop your professional portfolio, including resume writing and interview preparation.",
+          "Receive guidance on transitioning into data analytics careers and navigating the job market."
+        ]
+      }
+    ],
+    "level": "Beginner",
+    "mode": "Live Sessions",
+    "efforts": "10hrs/ Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "MS Excel",
+      "SQL",
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Tableau",
+      "Power BI",
+      "Jupyter",
+      "ChatGPT",
+      "Gemini"
+    ],
+    "skills": [
+      "Data Collection and Cleaning",
+      "Data Exploration and Visualization",
+      "Statistical Analysis",
+      "Data Interpretation and Reporting"
+    ],
+    "recruiters": [
+      "Accenture",
+      "BHIVE",
+      "Bridge",
+      "course5Intel",
+      "datagrid",
+      "deloitte",
+      "dexlock",
+      "eSpark",
+      "ExlService",
+      "fractalAnalytics",
+      "Genpact",
+      "IBM",
+      "indiumSoftware",
+      "LatentView",
+      "MuSigma",
+      "Quantiphi",
+      "TigerAnalytics",
+      "Wipro",
+      "capgemini",
+      "Infosys",
+      "TCS"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of Data Analytics",
+        "before": "Limited understanding of data analysis tools and techniques.",
+        "after": "Work on real datasets to master data analytics tools and methodologies."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience through real-world data analytics projects and case studies."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited technical and soft skills.",
+        "after": "Comprehensive interview preparation with mock sessions and expert tips focused on analytics."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced data analytics mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in technical and analytical problem-solving skills.",
+        "after": "Developed increased confidence to analyze and solve real-world data challenges."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the duration of the Data Analytics course?",
+        "answer": "The course lasts for 3 months."
+      },
+      {
+        "question": "What skills will I learn in this course?",
+        "answer": "You will learn data collection and cleaning, data exploration and visualisation, statistical analysis, and data interpretation and reporting."
+      },
+      {
+        "question": "How many hours per week should I dedicate to this course?",
+        "answer": "You should plan to spend around 10 hours per week on the course."
+      },
+      {
+        "question": "What tools will I use during the course?",
+        "answer": "You will use Python (Pandas, NumPy, Matplotlib, Seaborn), Excel, Power Query, SQL, and Tableau/Power BI/Looker Studio."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, the course builds a solid foundation in essential statistical concepts and progresses to advanced data analysis techniques."
+      },
+      {
+        "question": "Will there be any real-world projects?",
+        "answer": "Yes, you will work on real-world projects and case studies, including 5+ guided projects and a capstone project."
+      },
+      {
+        "question": "What kind of support will I receive during the course?",
+        "answer": "You will receive support from instructors and have access to a community of peers for collaboration and discussion."
+      },
+      {
+        "question": "What if I have more questions?",
+        "answer": "If you have additional questions, please contact our support team at reachus@coursevita.com."
+      },
+      {
+        "question": "What is the refund policy for Coursevita program?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details checkout the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "Data Analyst",
+        "avgSalary": "₹4 - ₹9 LPA",
+        "openings": "20K+"
+      },
+      {
+        "name": "Data Scientist",
+        "avgSalary": "₹8 - ₹19 LPA",
+        "openings": "7K+"
+      },
+      {
+        "name": "Business Intelligence Analyst",
+        "avgSalary": "₹5 - ₹11 LPA",
+        "openings": "30K+"
+      },
+      {
+        "name": "Marketing Analytics Manager",
+        "avgSalary": "₹11 - ₹30 LPA",
+        "openings": "16K+"
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/data-analyst-bw.webp",
+      "colorVersion": "/images/certificates/data-analyst-color.webp"
+    },
+    "ambitionBoxlinks": "https://www.ambitionbox.com/profile/data-analyst-jobs",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=3913498796&geoId=102713980&keywords=data%20Analytics%20job%20roles&location=India&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true"
+  },
+  {
+    "courseTitle": "AI & ML Mastery Program",
+    "coursePath": "AIML",
+    "category": "AI & ML Mastery Program",
+    "image": "https://coursevita-storate.s3.ap-south-1.amazonaws.com/1729776199045-AIMLS.jpg",
+    "period": "12 Weeks",
+    "assistance": "Placement Assistance",
+    "subTag": "AI & ML Mastery Program",
+    "costPrice": "24999",
+    "sellingPrice": "11999",
+    "courseDesc": "Master AI & Machine Learning in this 12-week weekend course, designed for students, freshers, and professionals. Gain real-world skills in AI/ML concepts, advanced Python, data wrangling, supervised and unsupervised learning, and much more.",
+    "curriculumLink": "",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "AIML",
+    "resource": "Complete Study Material",
+    "imageKey": "AIML",
+    "technology": "AI & ML",
+    "keywords": [
+      "AI",
+      "ML",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Science",
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Model Tuning",
+      "Data Preprocessing",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Engineering",
+      "Capstone Project",
+      "AI/ML Tools",
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "AWS SageMaker",
+      "Scikit-learn",
+      "Jupyter Notebooks",
+      "Power BI",
+      "Tableau",
+      "NLP"
+    ],
+    "mentors": [
+      {
+        "name": "Nikanksha",
+        "tagLine": "10+ Years of Experience in AI/ML",
+        "linkedIn": "https://www.linkedin.com/in/nikanksha-jain-12b67762",
+        "profileImg": "nikanksha"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to Prompt Engineering",
+        "description": [
+          "Basics of prompt engineering and its purpose.",
+          "Crafting effective prompts (few-shot, zero-shot formats).",
+          "Testing and evaluating prompt responses."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Prompt Engineering",
+        "description": [
+          "Refining prompts for accuracy and efficiency.",
+          "Managing multi-turn and complex prompts.",
+          "Creating reusable prompt templates for automation."
+        ]
+      },
+      {
+        "moduleHeading": "Deep Dive into Prompt Engineering",
+        "description": [
+          "Domain-specific prompt engineering challenges.",
+          "Role-based and chain-of-thought prompts.",
+          "Continuous evaluation and feedback-based improvement."
+        ]
+      },
+      {
+        "moduleHeading": "Capstone Projects",
+        "description": [
+          "Start working on Capstone Projects (1 Major, 1 Minor) based on market demand.",
+          "Weekly review and guidance."
+        ]
+      },
+      {
+        "moduleHeading": "AWS SageMaker & Bedrock Essentials",
+        "description": [
+          "Overview of SageMaker and Bedrock.",
+          "Setting up AWS SageMaker Studio.",
+          "Data preparation and basic feature engineering."
+        ]
+      },
+      {
+        "moduleHeading": "SageMaker & Bedrock Advanced Features",
+        "description": [
+          "Model training with built-in and custom algorithms.",
+          "Model evaluation, tuning, and optimization.",
+          "Deploying real-time inference endpoints (CloudWatch monitoring)."
+        ]
+      },
+      {
+        "moduleHeading": "Security, Ethics, and Bias in Generative AI",
+        "description": [
+          "Deepfakes and misinformation.",
+          "Privacy and data security.",
+          "Bias detection and mitigation."
+        ]
+      },
+      {
+        "moduleHeading": "Deployment and Scaling of Generative AI Models",
+        "description": [
+          "Model deployment strategies.",
+          "Scalability and resource management.",
+          "Automated pipelines and security measures.",
+          "AIOps & LLMOps."
+        ]
+      },
+      {
+        "moduleHeading": "Fine-Tuning and Optimizing Generative AI Models",
+        "description": [
+          "Supervised and self-supervised fine-tuning.",
+          "Parameter-efficient fine-tuning (PEFT).",
+          "Reinforcement learning from human feedback."
+        ]
+      },
+      {
+        "moduleHeading": "Supervised & Unsupervised Learning Algorithms",
+        "description": [
+          "Logistic regression, decision trees, random forests.",
+          "Support vector machines, Naive Bayes, evaluation metrics.",
+          "Unsupervised learning (PCA, clustering techniques like DBSCAN, OPTICS)."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Machine Learning & Hyperparameter Tuning",
+        "description": [
+          "Ensemble methods (Bagging, Boosting).",
+          "Advanced regression and classification techniques.",
+          "Hyperparameter tuning and cross-validation techniques (Grid Search, Bayesian Optimization)."
+        ]
+      },
+      {
+        "moduleHeading": "Revision, Recap, Q&A",
+        "description": [
+          "Recap of key concepts from each module.",
+          "Address any lingering questions and doubts.",
+          "Q&A session.",
+          "Final feedback on Capstone Projects."
+        ]
+      }
+    ],
+    "level": "Beginner to Intermediate",
+    "mode": "Live Online Sessions",
+    "efforts": "6-8 hrs/Week (outside live classes)",
+    "projectsGuided": "2 (1 Minor, 1 Major)",
+    "tools": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "AWS SageMaker",
+      "Scikit-learn",
+      "Jupyter Notebooks",
+      "Power BI",
+      "Tableau"
+    ],
+    "skills": [
+      "Data Preprocessing",
+      "Supervised and Unsupervised Learning",
+      "Deep Learning",
+      "Model Tuning & Optimization",
+      "Natural Language Processing",
+      "AI/ML Deployment"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of AI & ML",
+        "before": "Limited understanding of artificial intelligence and machine learning concepts.",
+        "after": "Master AI and ML concepts through practical exposure and real-world projects."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience with real-world datasets, building ML models, and deploying AI solutions."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited technical and problem-solving skills.",
+        "after": "Comprehensive interview preparation through mock sessions and AI/ML-specific expert guidance."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced AI/ML mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in building and deploying AI/ML solutions.",
+        "after": "Developed the confidence to design, implement, and optimize AI/ML models for real-world challenges."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need any prior experience to enroll in this course?",
+        "answer": "No prior AI/ML experience is required. Basic knowledge of programming, especially Python, will be helpful."
+      },
+      {
+        "question": "How many hours should I dedicate per week?",
+        "answer": "You should dedicate 6-8 hours per week outside of live classes for self-study and projects."
+      },
+      {
+        "question": "What if I miss a live session?",
+        "answer": "All live sessions are recorded and made available for later access."
+      },
+      {
+        "question": "What projects will I work on?",
+        "answer": "You will work on one minor project and one major capstone project."
+      },
+      {
+        "question": "What tools will I use?",
+        "answer": "You will gain hands-on experience with Python, TensorFlow, AWS SageMaker, and more."
+      },
+      {
+        "question": "What is the refund policy for Coursevita program?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details checkout the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "AI Engineer",
+        "avgSalary": "₹8 - ₹20 LPA",
+        "openings": ""
+      },
+      {
+        "name": "Machine Learning Engineer",
+        "avgSalary": "₹6 - ₹18 LPA",
+        "openings": ""
+      },
+      {
+        "name": "Data Scientist",
+        "avgSalary": "₹8 - ₹25 LPA",
+        "openings": ""
+      },
+      {
+        "name": "AI/ML Researcher",
+        "avgSalary": "₹10 - ₹30 LPA",
+        "openings": ""
+      },
+      {
+        "name": "NLP Specialist",
+        "avgSalary": "₹8 - ₹22 LPA",
+        "openings": ""
+      },
+      {
+        "name": "AI Architect",
+        "avgSalary": "₹18 - ₹40 LPA",
+        "openings": ""
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/Certificateblack.png",
+      "colorVersion": "/images/certificates/CertificateColour.png"
+    },
+    "ambitionBoxlinks": "",
+    "linkedinJobRoles": ""
+  },
+  {
+    "courseTitle": "Data Visualization",
+    "coursePath": "dataVisualization",
+    "category": "Data Visualization",
+    "image": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/dataVisualization.webp",
+    "period": "90 Days",
+    "assistance": "Placement Assistance",
+    "subTag": "Data Visualization",
+    "costPrice": "25000",
+    "sellingPrice": "11250",
+    "courseDesc": "Immerse yourself in the world of data visualization in this comprehensive course tailored for aspiring data visualization specialists. From creating insightful charts to designing interactive dashboards, master the art of visual storytelling with data.",
+    "curriculumLink": "https://zfrmz.in/ZfhpSbqo4iImLIDP9C53",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "dataVisualization",
+    "resource": "Complete Study Material",
+    "imageKey": "dataVisualization",
+    "technology": "Data Science",
+    "keywords": [
+      "Data Visualization",
+      "Data Science",
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Analyst",
+      "Marketing Analytics Manager",
+      "Data Visualization Engineer",
+      "Analytics Manager",
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Analyst",
+      "Marketing Analytics Manager",
+      "Data Visualization Engineer",
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Analyst",
+      "Marketing Analytics Manager",
+      "Data Visualization Engineer",
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Analyst",
+      "Marketing Analytics Manager",
+      "Data Visualization Engineer",
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Analyst",
+      "Marketing Analytics Manager",
+      "Data Visualization Engineer",
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Analyst",
+      "Marketing Analytics Manager",
+      "Data Visualization Engineer"
+    ],
+    "mentors": [
+      {
+        "name": "Neha Gupta",
+        "tagLine": "IIT Madras, Ex-JPMC (10+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/neha-gupta-7756118a/",
+        "profileImg": "neha"
+      },
+      {
+        "name": "Revanth Guthala",
+        "tagLine": "Ex- Airtel, Ex- YULU",
+        "linkedIn": "https://www.linkedin.com/in/revanth-guthala-7a0b3abb/",
+        "profileImg": "revanth"
+      },
+      {
+        "name": "Nikansha Jain",
+        "tagLine": "Data Scientist, IBM (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/nikanksha-jain-12b67762/",
+        "profileImg": "nikanksha"
+      },
+      {
+        "name": "Ejaz Ahmed",
+        "tagLine": "Sr. Data Scientist (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/ejaz-ahmed-qazi/",
+        "profileImg": "Ejaz"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Fundamentals of Data Visualization",
+        "description": [
+          "Gain a deep understanding of data visualization principles and best practices.",
+          "Learn about different types of charts, graphs, and visualization techniques."
+        ]
+      },
+      {
+        "moduleHeading": "Data Visualization Tools and Techniques",
+        "description": [
+          "Explore popular data visualization tools such as Tableau, Power BI, and matplotlib.",
+          "Learn how to create engaging and interactive visualizations using these tools."
+        ]
+      },
+      {
+        "moduleHeading": "Designing Effective Dashboards",
+        "description": [
+          "Master the design principles for creating effective dashboards that convey insights at a glance.",
+          "Learn about dashboard layout, color schemes, and user interface design."
+        ]
+      },
+      {
+        "moduleHeading": "Storytelling with Data",
+        "description": [
+          "Understand the importance of storytelling in data visualization.",
+          "Learn how to craft compelling narratives and communicate insights effectively through visualizations."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Visualization Techniques",
+        "description": [
+          "Dive into advanced visualization techniques such as geospatial visualization and network visualization.",
+          "Learn how to tackle complex data visualization challenges and create visually stunning presentations."
+        ]
+      },
+      {
+        "moduleHeading": "Real-World Applications",
+        "description": [
+          "Work on hands-on projects and case studies to apply your data visualization skills in real-world scenarios.",
+          "Complete a capstone project to showcase your expertise in designing impactful visualizations."
+        ]
+      }
+    ],
+    "level": "Beginner",
+    "mode": "Live Sessions",
+    "efforts": "8hrs/Week",
+    "projectsGuided": "3+",
+    "tools": ["Tableau", "Power BI", "Matplotlib", "Seaborn"],
+    "skills": [
+      "Data Visualization Principles",
+      "Data Visualization Tools",
+      "Dashboard Design",
+      "Storytelling with Data",
+      "Advanced Visualization Techniques"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of Data Visualization",
+        "before": "Limited understanding of visualization tools and techniques.",
+        "after": "Master data visualization concepts using industry-leading tools and techniques."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience creating impactful visualizations using real-world datasets."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited technical and storytelling skills.",
+        "after": "Comprehensive interview preparation with mock sessions and expert tips focused on visualization."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced data visualization mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in presenting data-driven insights effectively.",
+        "after": "Developed the ability to create and present clear, compelling visual narratives for real-world problems."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the duration of the Data Visualization course?",
+        "answer": "The course lasts for 3 months."
+      },
+      {
+        "question": "What skills will I learn in this course?",
+        "answer": "You will learn data visualisation principles, how to use data visualisation tools, dashboard design, storytelling with data, and advanced visualisation techniques."
+      },
+      {
+        "question": "How many hours per week should I dedicate to this course?",
+        "answer": "You should plan to spend around 8 hours per week on the course."
+      },
+      {
+        "question": "What tools will I use during the course?",
+        "answer": "You will use Tableau, Power BI, matplotlib, and seaborn."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, the course is suitable for beginners and progresses to intermediate-level techniques."
+      },
+      {
+        "question": "Will there be any real-world projects?",
+        "answer": "Yes, you will work on hands-on projects and case studies, including 3+ guided projects and a capstone project."
+      },
+      {
+        "question": "What kind of support will I receive during the course?",
+        "answer": "You will receive support from instructors and have access to a community of peers for collaboration and discussion."
+      },
+      {
+        "question": "What if I have more questions?",
+        "answer": "If you have additional questions, please contact our support team at reachus@coursevita.com."
+      },
+      {
+        "question": "What is the refund policy for Coursevita program?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details checkout the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "Data Visualization Engineer",
+        "avgSalary": "₹4 - ₹16 LPA",
+        "openings": "35K+"
+      },
+      {
+        "name": "Data Analyst",
+        "avgSalary": "₹4 - ₹9 LPA",
+        "openings": "20K+"
+      },
+      {
+        "name": "Data Scientist",
+        "avgSalary": "₹8 - ₹19 LPA",
+        "openings": "7K+"
+      },
+      {
+        "name": "Business Intelligence Analyst",
+        "avgSalary": "₹5 - ₹11 LPA",
+        "openings": "30K+"
+      },
+      {
+        "name": "Analytics Manager",
+        "avgSalary": "₹16 - ₹23 LPA",
+        "openings": "16K+"
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/Certificateblack.png",
+      "colorVersion": "/images/certificates/CertificateColour.png"
+    },
+    "ambitionBoxlinks": "https://www.naukri.com/data-visualization-jobs",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=3936828791&keywords=data%20visualization%20job%20roles&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=3847045021%2C3936179448%2C3937576726"
+  },
+  {
+    "courseTitle": "Performance Marketing",
+    "coursePath": "performanceMarketingTraining",
+    "category": "Performance Marketing",
+    "image": "https://coursevita-storate.s3.ap-south-1.amazonaws.com/1729579912912-business-person-looking-finance-graphs.jpg",
+    "period": "12 weeks",
+    "assistance": "Placement Assistance",
+    "subTag": "Performance Marketing",
+    "costPrice": "65000",
+    "sellingPrice": "24999",
+    "courseDesc": "Master the art of performance marketing in this comprehensive 3-month course. Learn to drive measurable results through data-driven strategies, optimize campaigns, and use advanced analytics for marketing success.",
+    "curriculumLink": "",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "performanceMarketingTraining",
+    "resource": "Complete Study Material",
+    "imageKey": "PM",
+    "technology": "Digital Marketing",
+    "keywords": [
+      "Performance Marketing",
+      "SEO",
+      "PPC",
+      "Digital Marketing",
+      "Analytics",
+      "Conversion Rate Optimization",
+      "Social Media Marketing",
+      "Affiliate Marketing",
+      "Email Marketing"
+    ],
+    "mentors": [
+      {
+        "name": "Deepika Manoharan",
+        "tagLine": "8+ Years of Experience in Digital Marketing",
+        "linkedIn": "",
+        "profileImg": "deepika"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to Performance Marketing",
+        "description": ["Overview and significance in the digital landscape."]
+      },
+      {
+        "moduleHeading": "Digital Marketing Fundamentals",
+        "description": ["Understanding various channels and strategies."]
+      },
+      {
+        "moduleHeading": "Search Engine Optimization (SEO)",
+        "description": ["Techniques for improving organic search visibility."]
+      },
+      {
+        "moduleHeading": "Pay-Per-Click Advertising (PPC)",
+        "description": ["Creating effective campaigns on Google Ads."]
+      },
+      {
+        "moduleHeading": "Social Media Marketing",
+        "description": [
+          "Strategies for leveraging platforms like Facebook and Instagram."
+        ]
+      },
+      {
+        "moduleHeading": "Email Marketing",
+        "description": ["Best practices for building and managing campaigns."]
+      },
+      {
+        "moduleHeading": "Conversion Rate Optimization (CRO)",
+        "description": ["Techniques to improve landing page performance."]
+      },
+      {
+        "moduleHeading": "Web Analytics and Data Interpretation",
+        "description": ["Using Google Analytics to track performance."]
+      },
+      {
+        "moduleHeading": "A/B Testing and Experimentation",
+        "description": ["Understanding the importance of testing in marketing."]
+      },
+      {
+        "moduleHeading": "Retargeting Strategies",
+        "description": ["Techniques to re-engage previous visitors."]
+      },
+      {
+        "moduleHeading": "Affiliate Marketing",
+        "description": ["Leveraging partnerships for performance marketing."]
+      },
+      {
+        "moduleHeading": "Mobile Marketing",
+        "description": ["Optimizing campaigns for mobile users."]
+      },
+      {
+        "moduleHeading": "Influencer Marketing",
+        "description": ["Collaborating with influencers for brand promotion."]
+      },
+      {
+        "moduleHeading": "Case Studies & Real-World Applications",
+        "description": [
+          "Analyzing successful campaigns and implementing learnings."
+        ]
+      }
+    ],
+    "level": "Beginner to Intermediate",
+    "mode": "Live Sessions",
+    "efforts": "7hrs/Week",
+    "projectsGuided": "3+",
+    "tools": ["Google Analytics", "SEMrush", "Facebook Ads", "Google Ads"],
+    "skills": [
+      "Performance Marketing",
+      "SEO",
+      "PPC",
+      "Analytics",
+      "Conversion Rate Optimization"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of Performance Marketing",
+        "before": "Limited understanding of performance marketing strategies and tools.",
+        "after": "Master performance marketing concepts using industry-leading strategies and tools."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience with campaign management, analytics, and optimization for real-world scenarios."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited knowledge of marketing and analytical skills.",
+        "after": "Comprehensive interview preparation with mock sessions and expert insights into performance marketing."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced performance marketing mentors."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in creating and optimizing marketing campaigns.",
+        "after": "Developed the ability to design, analyze, and optimize high-performing marketing campaigns."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the duration of the Performance Marketing course?",
+        "answer": "The course lasts for 3 months."
+      },
+      {
+        "question": "What skills will I learn in this course?",
+        "answer": "You will learn SEO, PPC, analytics, CRO, and social media marketing."
+      },
+      {
+        "question": "How many hours per week should I dedicate to this course?",
+        "answer": "You should plan to spend around 7 hours per week on the course."
+      },
+      {
+        "question": "What tools will I use during the course?",
+        "answer": "You will use Google Analytics, SEMrush, Facebook Ads, and Google Ads."
+      },
+      {
+        "question": "Will there be any real-world projects?",
+        "answer": "Yes, you will work on hands-on assignments and case studies."
+      },
+      {
+        "question": "What is the refund policy for Coursevita program?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details checkout the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "Performance Marketing Manager",
+        "avgSalary": "₹8 - ₹15 LPA",
+        "openings": ""
+      },
+      {
+        "name": "Digital Marketing Analyst",
+        "avgSalary": "₹4 - ₹8 LPA",
+        "openings": ""
+      },
+      {
+        "name": "PPC Specialist",
+        "avgSalary": "₹5 - ₹10 LPA",
+        "openings": ""
+      },
+      {
+        "name": "SEO Expert",
+        "avgSalary": "₹3.5 - ₹7 LPA",
+        "openings": ""
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/Certificateblack.png",
+      "colorVersion": "/images/certificates/CertificateColour.png"
+    },
+    "ambitionBoxlinks": "",
+    "linkedinJobRoles": ""
+  },
+  {
+    "courseTitle": "Full Stack Development",
+    "category": "Full Stack Development",
+    "coursePath": "fullStackDevelopment",
+    "image": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/fullStackDevelopment.webp",
+    "period": "12 weeks",
+    "assistance": "Placement Assistance",
+    "subTag": "Full Stack Development",
+    "costPrice": "50000",
+    "sellingPrice": "30000",
+    "courseDesc": "Master the art of full stack development with this comprehensive course. Learn to build dynamic web applications from scratch, working on both front-end and back-end technologies to create fully functional and scalable websites.",
+    "curriculumLink": "https://zfrmz.in/FullStackCurriculumLink",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "fullStackDevelopment",
+    "resource": "Complete Study Material",
+    "imageKey": "fullStack",
+    "technology": "Web Development",
+    "keywords": [
+      "Full Stack Development",
+      "Web Development",
+      "Frontend Development",
+      "Backend Development",
+      "Web Developer",
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Web Development Engineer",
+      "Web Development Specialist",
+      "Web Development Analyst",
+      "Web Development Manager",
+      "Web Development Consultant",
+      "Web Development Engineer",
+      "Web Development Specialist",
+      "Web Development Analyst",
+      "Web Development Manager",
+      "Web Development Consultant",
+      "Web Development Engineer",
+      "Web Development Specialist",
+      "Web Development Analyst",
+      "Web Development Manager",
+      "Web Development Consultant",
+      "Web Development Engineer",
+      "Web Development Specialist",
+      "Web Development Analyst",
+      "Web Development Manager",
+      "Web Development Consultant",
+      "Web Development Engineer",
+      "Web Development Specialist",
+      "Web Development Analyst",
+      "Web Development Manager",
+      "Web Development Consultant"
+    ],
+    "mentors": [
+      {
+        "name": "Narasimha Rao T",
+        "tagLine": "Empowering software industries with 20+ years of expertise in .NET technologies and corporate training.",
+        "linkedIn": "#",
+        "profileImg": "narsimha"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to Web Development",
+        "description": [
+          "Learn the basics of web development, including HTML, CSS, and JavaScript.",
+          "Understand the structure of web pages and how to style them."
+        ]
+      },
+      {
+        "moduleHeading": "Front-End Development",
+        "description": [
+          "Master front-end technologies such as React, Angular, or Vue.js.",
+          "Learn how to create responsive and interactive user interfaces."
+        ]
+      },
+      {
+        "moduleHeading": "Back-End Development",
+        "description": [
+          "Dive into server-side development using Node.js, Express.js, and databases like MongoDB.",
+          "Learn how to build RESTful APIs and manage server-side logic."
+        ]
+      },
+      {
+        "moduleHeading": "Full Stack Application Development",
+        "description": [
+          "Integrate front-end and back-end technologies to create full stack applications.",
+          "Understand the flow of data between the client and server."
+        ]
+      },
+      {
+        "moduleHeading": "Real-World Full Stack Projects",
+        "description": [
+          "Work on hands-on projects to apply full stack development skills in real-world scenarios.",
+          "Complete a capstone project to showcase your ability to develop and deploy a full stack web application."
+        ]
+      }
+    ],
+    "level": "Intermediate to Advanced",
+    "mode": "Live Sessions",
+    "efforts": "12hrs/Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Git"
+    ],
+    "skills": [
+      "Front-End Development",
+      "Back-End Development",
+      "Full Stack Application Development",
+      "Deployment",
+      "DevOps Practices"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Knowledge of Full Stack Development",
+        "before": "Limited understanding of front-end, back-end, and database technologies.",
+        "after": "Master front-end, back-end, and database development through hands-on training."
+      },
+      {
+        "aspect": "Practical Experience",
+        "before": "Engage directly with industry experts in real-time.",
+        "after": "Hands-on experience building full-stack applications with real-world projects and case studies."
+      },
+      {
+        "aspect": "Interview Readiness",
+        "before": "Difficulty cracking interviews due to limited knowledge of full-stack workflows.",
+        "after": "Comprehensive interview preparation with mock sessions and expert guidance tailored to full-stack development."
+      },
+      {
+        "aspect": "Mentorship Access",
+        "before": "Had no access to skilled & experienced mentors.",
+        "after": "Received guidance and support from skilled & experienced full-stack developers."
+      },
+      {
+        "aspect": "Confidence & Problem Solving",
+        "before": "Lack of confidence in building and deploying full-stack applications.",
+        "after": "Developed the confidence to design, develop, and deploy scalable full-stack applications."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the duration of the Full Stack Development course?",
+        "answer": "The course lasts for 12 Weeks."
+      },
+      {
+        "question": "What skills will I learn in this course?",
+        "answer": "You will learn front-end and back-end development, full stack application development, deployment, and DevOps practices."
+      },
+      {
+        "question": "How many hours per week should I dedicate to this course?",
+        "answer": "You should plan to spend around 12 hours per week on the course."
+      },
+      {
+        "question": "What tools will I use during the course?",
+        "answer": "You will use HTML, CSS, JavaScript, React, Node.js, MongoDB, and Git."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "This course is suitable for those with some foundational knowledge in web development. It progresses to more advanced full stack techniques."
+      },
+      {
+        "question": "Will there be any real-world projects?",
+        "answer": "Yes, you will work on hands-on projects and case studies, including 5+ guided projects and a capstone project."
+      },
+      {
+        "question": "What kind of support will I receive during the course?",
+        "answer": "You will receive support from instructors and have access to a community of peers for collaboration and discussion."
+      },
+      {
+        "question": "What if I have more questions?",
+        "answer": "If you have additional questions, please contact our support team at reachus@coursevita.com."
+      },
+      {
+        "question": "What is the refund policy for Coursevita program?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details checkout the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "Full Stack Developer",
+        "avgSalary": "₹6 - ₹20 LPA",
+        "openings": "40K+"
+      },
+      {
+        "name": "Front-End Developer",
+        "avgSalary": "₹5 - ₹15 LPA",
+        "openings": "25K+"
+      },
+      {
+        "name": "Back-End Developer",
+        "avgSalary": "₹7 - ₹18 LPA",
+        "openings": "20K+"
+      },
+      {
+        "name": "Web Developer",
+        "avgSalary": "₹4 - ₹10 LPA",
+        "openings": "30K+"
+      },
+      {
+        "name": "Software Engineer",
+        "avgSalary": "₹8 - ₹22 LPA",
+        "openings": "35K+"
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/Certificateblack.png",
+      "colorVersion": "/images/certificates/CertificateColour.png"
+    },
+    "ambitionBoxlinks": "https://www.naukri.com/full-stack-developer-jobs",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=3936828791&keywords=full%20stack%20developer%20job%20roles&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=3847045021%2C3936179448%2C3937576726"
+  },
+  {
+    "courseTitle": "Digital Marketing with AI",
+    "category": "Digital Marketing with AI",
+    "coursePath": "digital-marketing",
+    "image": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/Title.png",
+    "period": "70+ hours",
+    "assistance": "Job Assistance",
+    "subTag": "Digital Marketing with AI",
+    "costPrice": "19999",
+    "sellingPrice": "14999",
+    "courseDesc": "Our Digital Marketing Course with AI, designed to meet industry demands, helps you kickstart a successful career in digital marketing. Master AI-driven marketing tools, strategies, and analytics with hands-on real-world projects. Earn certifications and gain the skills needed to excel in top digital marketing roles powered by AI. ",
+    "curriculumLink": "https://zfrmz.in/FullStackCurriculumLink",
+    "curriculumSnapshot": "DigitalMarketingwithAI",
+    "learnmoreCourse": "DigitalMarketingwithAI",
+    "resource": "Complete Study Material",
+    "imageKey": "digitalmarketing",
+    "technology": "DigitalMarketing",
+    "programSkills": [
+      "Digital Marketing",
+      "Search Engine Optimization (SEO)",
+      "Google Ads",
+      "Meta Ads",
+      "Email Marketing",
+      "Audience Analysis",
+      "Trend Analysis",
+      "Digital Campaign Management",
+      "Ads Management",
+      "Keyword Research",
+
+      "Brand Guidelines",
+
+      "Presentation Skills",
+      "Communication",
+      "Creative Thinking",
+      "Design Strategy",
+      "Problem-Solving",
+      "Professional Branding",
+      "Whatsapp Marketing"
+    ],
+    "keywords": [""],
+    "mentors": [
+      {
+        "name": "Pavan Bisamala",
+        "tagLine": " 4+ years in Digital Marketing",
+        "linkedIn": "https://www.linkedin.com/in/pavan-bisamala/",
+        "profileImg": "pavan"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Marketing Basics",
+        "description": [
+          "What is Marketing? Understanding its core principles and importance.",
+          "4Ps of Marketing (Product, Price, Place, Promotion) – Framework for marketing strategy.",
+          "4Cs of Marketing (Customer, Cost, Convenience, Communication) – A customer-focused approach.",
+          "Types of Online Businesses (E-commerce, Service-Based, Subscription, SaaS, etc.).",
+          "Leads vs. Sales – Key differences and their impact on business growth.",
+          "Branding, Marketing, Advertising, Promotions, and Sales – Definitions and roles.",
+          "Market Segmentation, Targeting, and Positioning (STP) – Creating a winning strategy."
+        ]
+      },
+      {
+        "moduleHeading": "Digital Marketing Overview and Key Metrics",
+        "description": [
+          "Introduction to digital marketing, types of digital marketing and its importance in business growth.",
+          "Understanding different digital marketing channels, including SEO, SEM, social media, email marketing, and content marketing.",
+          "Overview of paid, owned, earned, and shared media.",
+          "Key digital marketing metrics, including click-through rate (CTR), impressions, cost-per-click (CPC), bounce rate, and conversion rate.",
+          "Traditional vs. digital marketing funnel and how businesses can leverage digital strategies.",
+          "How to drive traffic and convert users into customers."
+        ]
+      },
+      {
+        "moduleHeading": "Consumer Psychology and Audience Targeting",
+        "description": [
+          "Understanding buyer personas and customer profiling.",
+          "Crafting a strong value proposition and analyzing competitors.",
+          "Consumer behavior and how user intent affects marketing strategies.",
+          "Writing persuasive marketing copy for different digital channels.",
+          "Conversion rate optimization (CRO) principles and strategies."
+        ]
+      },
+      {
+        "moduleHeading": "Introduction to SEO (Search Engine Optimization)",
+        "description": [
+          "What is SEO? How it helps websites rank higher in search engines.",
+          "Types of SEO – On-Page, Off-Page, Technical SEO.",
+          "Understanding SEO & Google updates.",
+          "How Google ranks websites – Understanding Google's ranking algorithms.",
+          "SERP (Search Engine Results Pages) and how they work.",
+          "Understanding Google's crawling and indexing process.",
+          "Google Sandbox – Does it exist? How it affects new websites.",
+          "Using AI with SEO: Keyword research, content structure, and title & meta description optimization.",
+          "Benefits and challenges of SEO – Pros and cons."
+        ]
+      },
+      {
+        "moduleHeading": "Keyword Research",
+        "description": [
+          "What are keywords? Their role in SEO and digital marketing.",
+          "Short-Tail vs. Long-Tail Keywords – When to use each type.",
+          "Search volume, keyword difficulty, and CPC analysis.",
+          "Google Keyword Planner, SEMrush, Ahrefs, Ubersuggest – Keyword research tools.",
+          "Competitor keyword research – How to analyze and outrank competitors.",
+          "Developing an effective keyword strategy.",
+          "Latent Semantic Indexing (LSI) keywords and their importance."
+        ]
+      },
+      {
+        "moduleHeading": "Copywriting & Blogging",
+        "description": [
+          "The role of content in digital marketing and SEO.",
+          "How to create high-quality, engaging blog content.",
+          "AI-powered copywriting – Using ChatGPT and Google Bard.",
+          "SEO-optimized content – Title, meta description, headers, and readability.",
+          "Plagiarism and grammar checking – Best practices.",
+          "How to create and optimize blog images using Canva.",
+          "Tips for writing viral content and maximizing engagement."
+        ]
+      },
+      {
+        "moduleHeading": "On-Page SEO Optimization",
+        "description": [
+          "Fundamental On-Page SEO elements – Meta tags, headings, and internal linking.",
+          "How to write SEO-optimized titles and descriptions.",
+          "Optimizing image SEO – Alt tags, compression, file naming.",
+          "Using LSI keywords, synonyms, and NLP for SEO optimization.",
+          "The role of structured data and schema markup in SEO.",
+          "Internal linking strategies for better SEO performance.",
+          "Optimizing website readability and user engagement for SEO."
+        ]
+      },
+      {
+        "moduleHeading": "Technical SEO",
+        "description": [
+          "What is Technical SEO? Why it matters.",
+          "Creating Robots.txt and Sitemap.xml files.",
+          "Core Web Vitals – Page speed, UX, and mobile optimization.",
+          "Understanding HTTPS, SSL, and website security.",
+          "How to fix broken links and redirect errors.",
+          "Mobile optimization – Best practices for responsive websites.",
+          "Understanding and implementing AMP (Accelerated Mobile Pages)."
+        ]
+      },
+      {
+        "moduleHeading": "Advanced SEO Strategies ",
+        "description": [
+          "Understanding Google Algorithm Updates – Panda, Penguin, BERT, Hummingbird.",
+          "How Google evaluates website quality – E-E-A-T (Expertise, Experience, Authority, Trust).",
+          "Google Search Console – Setup, features, and how to use it for SEO.",
+          "SEO site audits – Identifying and fixing SEO issues.",
+          "Voice search optimization – How SEO is changing with AI assistants.",
+          "SEO case studies – Examples of successful optimization strategies."
+        ]
+      },
+      {
+        "moduleHeading": "Off-Page SEO & Link Building ",
+        "description": [
+          "What is Off-Page SEO? How it differs from On-Page SEO.",
+          "Understanding backlinks – Importance and how they work.",
+          "Types of backlinks – Dofollow vs. Nofollow.",
+          "Guest posting and outreach – Best practices for acquiring high-quality links.",
+          "How to build a natural link profile and avoid Google penalties.",
+          "Social media's role in Off-Page SEO.",
+          "Best tools for monitoring backlinks – Ahrefs, Moz, SEMrush."
+        ]
+      },
+      {
+        "moduleHeading": "Local SEO – Google My Business ",
+        "description": [
+          "What is Local SEO? Why it's important for small businesses.",
+          "How to create and optimize a Google My Business (GMB) listing.",
+          "NAP citations – Name, address, phone number consistency across directories.",
+          "Google Maps optimization – How to rank higher in local searches.",
+          "The role of customer reviews in Local SEO and reputation management.",
+          "Local SEO ranking factors – How Google prioritizes businesses in local search.",
+          "Using schema markup for Local SEO optimization."
+        ]
+      },
+      {
+        "moduleHeading": "Conversion Tracking and Analytics Masterclass ",
+        "description": [
+          "Importance of conversion tracking – Why tracking user actions is crucial for optimizing marketing efforts and improving ROI.",
+          "Google Analytics 4 (GA4) and Attribution Models – Understanding user lifecycle events, funnel path analysis, and different attribution models.",
+          "Google Tag Manager (GTM) Implementation – Setting up GTM for event tracking, e-commerce tracking, and custom conversion events.",
+          "Heatmaps and session recording – Using tools like Hotjar and Microsoft Clarity to analyze user behavior and website engagement.",
+          "Mobile App Conversion Tracking – Setting up app analytics, tracking in-app events, and optimizing mobile user experience.",
+          "Advanced tracking with Mixpanel and Matomo – Using Mixpanel for user behavior insights and Matomo for open-source web analytics.",
+          "Segmentation and audience insights – Creating audience segments to personalize marketing efforts and improve conversion rates."
+        ]
+      },
+      {
+        "moduleHeading": "Google Ads (PPC Marketing) ",
+        "description": [
+          "Introduction to Pay-Per-Click (PPC) advertising and how paid ads work.",
+          "Setting up a Google Ads account – step-by-step process.",
+          "Understanding different Google Ads campaign types – Search, Display, Video, and Shopping.",
+          "Keyword targeting and match types – Broad, Exact, Phrase, and Negative Keywords.",
+          "How Google determines Ad Rank – Quality Score and bidding strategies.",
+          "Landing page optimization for higher conversions.",
+          "Tracking and measuring ad performance."
+        ]
+      },
+      {
+        "moduleHeading": "Facebook and Instagram Marketing ",
+        "description": [
+          "Importance of Facebook and Instagram in digital marketing.",
+          "Setting up and optimizing a business page on Facebook and Instagram.",
+          "Creating and managing Facebook and Instagram Ads – campaign setup, targeting, and budgeting.",
+          "Best practices for engaging social media content.",
+          "Facebook Groups and community-building strategies.",
+          "Instagram Growth Hacking – leveraging Reels, Stories, and IGTV.",
+          "Tracking engagement metrics and analyzing performance."
+        ]
+      },
+      {
+        "moduleHeading": "LinkedIn Marketing",
+        "description": [
+          "Optimizing LinkedIn profiles for personal branding and business growth.",
+          "Content marketing using AI – idea generation, content creation, and automation.",
+          "Creating and managing a LinkedIn Business Page.",
+          "LinkedIn Ads – campaign types, targeting options, and lead generation strategies.",
+          "Thought leadership through LinkedIn articles and content sharing.",
+          "Effective networking and lead generation tactics.",
+          "Using LinkedIn Groups for engagement and industry networking.",
+          "Tracking and improving LinkedIn performance using analytics."
+        ]
+      },
+      {
+        "moduleHeading": "YouTube SEO & Video Marketing",
+        "description": [
+          "YouTube as a powerful digital marketing platform.",
+          "Content marketing using AI – idea generation, content creation, and automation.",
+          "Creating and optimizing a YouTube channel for SEO.",
+          "YouTube keyword research – optimizing video titles, tags, and descriptions.",
+          "Understanding the YouTube algorithm and video recommendations.",
+          "YouTube monetization strategies – AdSense, sponsorships, and affiliate marketing.",
+          "Best practices for creating high-retention, engaging videos.",
+          "Analyzing YouTube analytics for channel growth."
+        ]
+      },
+      {
+        "moduleHeading": "Email Marketing & Automation",
+        "description": [
+          "Overview of email marketing and its effectiveness in digital strategy.",
+          "Best practices for building an email list.",
+          "Creating high-converting email campaigns.",
+          "Email automation sequences – nurturing leads and customer retention.",
+          "Avoiding spam filters and improving email deliverability.",
+          "Best email marketing tools – Mailchimp, Brevo, Pabbly.",
+          "Key email marketing metrics – open rates, click-through rates (CTR), and conversions."
+        ]
+      },
+      {
+        "moduleHeading": "WhatsApp and Messenger Marketing",
+        "description": [
+          "The power of WhatsApp marketing for businesses.",
+          "Content marketing using AI – idea generation, content creation, and automation.",
+          "Setting up and managing a WhatsApp Business account.",
+          "Using WhatsApp API for chatbots and automated responses.",
+          "Bulk messaging strategies for lead generation.",
+          "Best practices for WhatsApp and Messenger engagement.",
+          "Tracking and analyzing WhatsApp marketing performance."
+        ]
+      },
+      {
+        "moduleHeading": "Social Media Optimization (SMO)",
+        "description": [
+          "The role of SMO in digital marketing.",
+          "How to optimize social media profiles for maximum reach.",
+          "Effective use of hashtags across different platforms.",
+          "Social media content planning and scheduling strategies.",
+          "Best automation tools for social media marketing.",
+          "Analyzing performance using social media insights and analytics.",
+          "Importance of community engagement in brand building."
+        ]
+      },
+      {
+        "moduleHeading": "Final Project & Certifications",
+        "description": [
+          "Running a full digital marketing campaign.",
+          "Creating a personal branding strategy.",
+          "Analyzing real-world digital marketing case studies.",
+          "Preparing for job interviews in digital marketing.",
+          "Coursevita Certification.",
+          "Final Capstone Project – applying all learned skills in a real-world marketing campaign."
+        ]
+      }
+    ],
+    "level": "Intermediate",
+    "mode": "Live Sessions",
+    "efforts": "6hrs/Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "ChatGPT",
+      "Semrush",
+      "Google Analytics",
+      "Google Tag Manager",
+      "MarketMuse",
+      "Buffer",
+      "Hootsuite",
+      "Mailchimp",
+      "Meta Ads",
+      "Google Ads",
+      "AiSensy",
+      "Brevo",
+      "Microsoft Clarity",
+      "Ubersugges",
+      "Ahrefs"
+    ],
+    "skills": [
+      "AI-Powered Marketing Strategies",
+      "Social Media Advertising with AI ",
+      "Data-Driven Marketing Analytics ",
+      "AI for SEO and Content Marketing ",
+      "AI in Customer Relationship Management ",
+      "AI-Driven Campaign Optimization"
+    ],
+    "recruiters": [
+      "Ais_technology",
+      "CapollaryTech",
+      "cargil",
+      "GenY_medium",
+      "Haptik ",
+      "Innovesta",
+      "JP_morgan",
+      "Sanofil",
+      "Yellow_ai",
+      "capgemini",
+      "Infosys",
+      "TCS",
+      "Microsoft",
+      "IBM",
+      "Accenture",
+      "fractalAnalytics",
+      "inFeedo"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Practical Knowledge",
+        "before": "Struggled to apply theory to real-world marketing challenges",
+        "after": "Gained hands-on experience through live projects and case studies."
+      },
+      {
+        "aspect": "Understanding of Digital Tools",
+        "before": "Had limited skills in digital marketing tools and strategies.",
+        "after": "Mastered in-demand tools like SEO, Google Ads, and social media marketing."
+      },
+      {
+        "aspect": "Social Media Strategy",
+        "before": "Found it challenging to think outside the box for marketing solutions.",
+        "after": "Built creativity and innovation into marketing strategies to engage target audiences effectively.."
+      },
+      {
+        "aspect": "Campaign Execution",
+        "before": "Was unsure how to execute and manage digital marketing campaigns.",
+        "after": "Gained the expertise to plan, execute, and optimize successful marketing campaigns across various channels."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the eligibility criteria to learn Digital Marketing?",
+        "answer": "Digital Marketing is open to anyone interested in business and marketing, regardless of educational background. The skills are highly in-demand and provide great career opportunities."
+      },
+      {
+        "question": " How do I know if the course is right for me?",
+        "answer": "If you're interested in learning how AI can enhance your digital marketing skills, this course is perfect for you. It's designed to be easy to understand and practical for real-world use."
+      },
+      {
+        "question": "What is the average salary for professionals in Digital Marketing?",
+        "answer": "The average salary for Digital Marketing professionals in India varies by experience: Entry-Level: ₹3-6 LPA, Mid-Level: ₹6-12 LPA, Top-Level: ₹12-25 LPA or more, depending on expertise, specialization, and company size. These figures can fluctuate based on location, industry demand, and skill set (SEO, PPC, content marketing, analytics, etc.)"
+      },
+      {
+        "question": "Will I receive a certificate upon completion of the course?",
+        "answer": "In our course, you can expect a hands-on, interactive learning experience with real-world applications. You'll engage in practical exercises, live discussions, and project-based learning that will help you build a strong understanding of key concepts. Our expert instructors will guide you through each step, ensuring a comprehensive and enriching experience."
+      },
+      {
+        "question": "What if I can’t understand some topics and want to get training for those?",
+        "answer": "Yes, upon completing the course, you'll receive a certificate from Coursevita, validating your digital marketing skills and expertise."
+      },
+      {
+        "question": "What happens if I can’t attend the live Session? ",
+        "answer": "We offer clarification sessions upon request, and you can retake the entire course at no extra cost if needed. "
+      },
+      {
+        "question": "How will my doubts get solved?",
+        "answer": "Your doubt will be addressed through interactive Q&A sessions, Discussion forums, and live chat support. You can also email our support team (support@coursevita.com) for personalized assistance, or connect with instructors during scheduled office hours for one-on-one help. "
+      },
+      {
+        "question": "What is the refund policy at Coursevita?",
+        "answer": "Refunds are allowed before the batch commencement with a 50 % processing fee on the initial payment. No refunds are permitted after the batch begins. For more details check out the refund policy. "
+      },
+      {
+        "question": "How involved is the mentor in this program?",
+        "answer": "Our mentor will be actively involved in live sessions, answering questions and providing feedback. While responses outside of sessions may be limited, the mentor will frequently share insights and address common concerns. "
+      },
+      {
+        "question": "Can we see growth in Digital Marketing career?",
+        "answer": "Absolutely! Staying updated with evolving trends creates clear opportunities for career growth. You can continually upgrade your skills and move up to higher roles."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "AI Digital Marketing Specialist",
+        "openings": "25k+",
+        "avgSalary": "₹6 - ₹18 LPA"
+      },
+      {
+        "name": "Digital Marketing Manager",
+        "openings": "20K+",
+        "avgSalary": "₹8 - ₹20 LPA"
+      },
+      {
+        "name": "Content Marketing Manager (AI-powered)",
+        "openings": "10k+",
+        "avgSalary": " ₹7 - ₹16 LPA"
+      },
+      {
+        "name": "AI Marketing Analyst",
+        "openings": "12k+",
+        "avgSalary": " ₹6.5 - ₹14 LPA"
+      },
+      {
+        "name": "PPC Specialist with AI",
+        "openings": "8k+",
+        "avgSalary": " ₹5.5 - ₹12 LPA"
+      },
+      {
+        "name": "Social Media Manager (AI-based)",
+        "openings": "10k+",
+        "avgSalary": " ₹6 - ₹15 LPA"
+      },
+      {
+        "name": "Marketing Automation Specialist (AI)",
+        "openings": "7k+",
+        "avgSalary": " ₹7 - ₹18 LPA"
+      }
+    ],
+    "certificates": {
+      "blackVersion": "/images/certificates/digitial-marketing-bw.webp",
+      "colorVersion": "/images/certificatesdigitial-marketing-color.webp"
+    },
+    "ambitionBoxlinks": "https://www.ambitionbox.com/jobs/digital-marketing-executive-jobs-prf",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?currentJobId=4122139714&keywords=Digital%20marketing%20job%20roles&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true"
+  },
+  {
+    "courseTitle": "AI Engineer Course",
+    "category": "AI Engineer",
+    "coursePath": "ai-engineering",
+    "image": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/courseImages/dataEng.webp",
+    "period": "100+ hours",
+    "assistance": "Placement Assistance",
+    "subTag": "AI Engineer Course with 100% Placement Assistance",
+    "costPrice": "60000",
+    "sellingPrice": "45000",
+    "courseDesc": "Our AI Engineer course with placement assistance, designed for high demand, helps you build a successful career in the tech industry. Learn essential AI engineer skills like machine learning, deep learning, and data processing through real-world projects. Master tools and techniques used by AI professionals, gain certification, and receive job support to secure top roles as an AI Engineer.",
+    "curriculumLink": "https://zfrmz.in/AIEngineerCurriculumLink",
+    "curriculumSnapshot": "",
+    "learnmoreCourse": "AIEngineer",
+    "resource": "Complete Study Material",
+    "imageKey": "dataEng",
+    "technology": "Artificial Intelligence",
+    "programSkills": [
+      "Machine Learning",
+      "Chatbot Design",
+      "APIs",
+      "AI Models Understanding",
+      "Understanding AI Models",
+      "AI Models Understanding",
+
+      "Prompt Engineering",
+      "AI/LLM Applications",
+      "Model Evaluation",
+      "Feature Engineering",
+      "Optimization Techniques",
+      "System Design"
+    ],
+    "keywords": [
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "Deep Learning Engineer",
+      "Data Scientist",
+      "Computer Vision Engineer",
+      "NLP Engineer",
+      "AI Solutions Architect",
+      "AI Product Analyst"
+    ],
+    "mentors": [
+      {
+        "name": "Neha Gupta",
+        "tagLine": "IIT Madras, Ex-JPMC (10+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/neha-gupta-7756118a/",
+        "profileImg": "neha"
+      },
+      {
+        "name": "Revanth Guthala",
+        "tagLine": "Ex- Airtel, Ex- YULU",
+        "linkedIn": "https://www.linkedin.com/in/revanth-guthala-7a0b3abb/",
+        "profileImg": "revanth"
+      },
+      {
+        "name": "Nikansha Jain",
+        "tagLine": "Data Scientist, IBM (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/nikanksha-jain-12b67762/",
+        "profileImg": "nikanksha"
+      },
+      {
+        "name": "Ejaz Ahmed",
+        "tagLine": "Sr. Data Scientist (6+ years exp in leading MNC'S)",
+        "linkedIn": "https://www.linkedin.com/in/ejaz-ahmed-qazi/",
+        "profileImg": "Ejaz"
+      }
+    ],
+    "modules": [
+      {
+        "moduleHeading": "Introduction to AI",
+        "description": [
+          "Demystifying AI, Data Science, Machine Learning, and Deep Learning",
+          "Weak vs Strong AI",
+          "Traditional ML: Supervised, Unsupervised, and Reinforcement Learning",
+          "The Rise of GenAI: Introducing ChatGPT"
+        ]
+      },
+      {
+        "moduleHeading": "Introduction to GenAI and its Applications",
+        "description": [
+          "Generative AI",
+          "Prompt Engineering vs Fine Tuning vs RAG",
+          "Inconsistency and Hallucination",
+          "Latency and API Budgeting"
+        ]
+      },
+      {
+        "moduleHeading": "Leveraging Large Language Models (LLMs)",
+        "description": [
+          "What are LLMs?",
+          "Pretraining and Fine Tuning",
+          "GPT vs Gemini vs Gork",
+          "Transformer Architecture",
+          "LangChain Basics",
+          "Using APIs in Python"
+        ]
+      },
+      {
+        "moduleHeading": "Python Programming for Accessing LLMs",
+        "description": [
+          "Python setup, libraries, API keys",
+          "Text Analysis",
+          "Handling API responses and rate limits",
+          "Pandas & Streamlit"
+        ]
+      },
+      {
+        "moduleHeading": "NLP and Its Basics",
+        "description": [
+          "NLP in Everyday Life",
+          "Lowercase, Stop Words, Regex",
+          "Tokenization, Stemming vs Lemmatization",
+          "Named Entity Recognition",
+          "Sentiment Analysis",
+          "Bag of Words, TF-IDF, Topic Modeling, LDA",
+          "Non-English NLP"
+        ]
+      },
+      {
+        "moduleHeading": "Prompt Engineering",
+        "description": [
+          "Basic Prompts",
+          "Zero-shot Prompting",
+          "Few-shot Prompting",
+          "Persona Prompting",
+          "Code Generation Prompts",
+          "Chain of Thought Prompting"
+        ]
+      },
+      {
+        "moduleHeading": "Multi-modal AI",
+        "description": [
+          "Introduction to Computer Vision",
+          "Image vs Video AI",
+          "Image & Video processing Techniques using AI",
+          "Sound-to-speech, Voice Assistants"
+        ]
+      },
+      {
+        "moduleHeading": "RAG Concepts",
+        "description": [
+          "Introduction to RAG",
+          "Document Loading and Splitting",
+          "Text Embedding & Vectorstore",
+          "MMR and Similarity Search",
+          "Document Stuffing",
+          "Generating Response",
+          "Chatbots"
+        ]
+      },
+      {
+        "moduleHeading": "Advanced Topics",
+        "description": [
+          "Agentic AI",
+          "Document processing using AI",
+          "Building AI applications with Streamlit and Github"
+        ]
+      }
+    ],
+    "level": "Intermediate",
+    "mode": "Live Sessions",
+    "efforts": "8hrs/Week",
+    "projectsGuided": "5+",
+    "tools": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Grok",
+      "Mid Journey",
+      "Sora",
+      "Eleven Labs",
+      "Perplexity",
+      "Google collab",
+      "Numpy",
+      "Pandas"
+    ],
+    "skills": [
+      "AI System Design",
+      "Machine Learning Fundamentals",
+      "Data Collection and Processing",
+      "AI Workflow & Deployment",
+      "Containerization with AI Tools",
+      "Monitoring and Insights"
+    ],
+    "recruiters": [
+      "AiPlanet",
+      "ASAPP",
+      "Ericsson",
+      "fordIndia",
+      "indusIndBank",
+      "inFeedo",
+      "litmus",
+      "Monotype",
+      "NVIDIA",
+      "Pepsico",
+      "pixxonAi",
+      "procterGamble",
+      "redHat",
+      "SAP",
+      "sastraRobotics",
+      "statfinity",
+      "zoniqx",
+      "Accenture",
+      "course5Intel"
+    ],
+    "comparisonData": [
+      {
+        "aspect": "Programming in Python",
+        "before": "Had basic or no knowledge of Python programming.",
+        "after": "Built strong coding skills in Python for data handling, logic building, and automation."
+      },
+      {
+        "aspect": "Data Processing",
+        "before": "Struggled to work with raw and unstructured data.",
+        "after": "Learned how to clean, organize, and process data for real-time AI applications."
+      },
+      {
+        "aspect": "Math for AI",
+        "before": "Felt overwhelmed with math concepts like statistics and linear algebra.",
+        "after": "Gained a solid foundation to apply math in AI algorithms and data analysis."
+      },
+      {
+        "aspect": "Neural Networks",
+        "before": "Had limited understanding of how machines learn from data.",
+        "after": "Learned to build and train deep learning systems for image, voice, and text tasks."
+      },
+      {
+        "aspect": "Cloud Deployment",
+        "before": "Was unsure how to run AI applications on the cloud.",
+        "after": "Learned to use cloud platforms like AWS to deploy and manage AI models at scale."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the AI Engineer Course in demand in 2025?",
+        "answer": "Yes, AI engineering is in high demand in 2025 as businesses adopt data-driven strategies. From automation to intelligent systems, industries need AI engineers to design, develop, and deploy smart solutions that improve efficiency and decision-making."
+      },
+      {
+        "question": "What are the roles and responsibilities for an AI Engineer?",
+        "answer": "AI engineers collect and clean large datasets, build algorithms for learning and decision-making, and deploy AI applications. They work with tools like Python, TensorFlow, and cloud services to create real-world solutions such as recommendation engines, chat systems, and predictive models. This course prepares you for these in-demand roles."
+      },
+      {
+        "question": "What is the average salary for professionals in AI Engineer?",
+        "answer": "The average salary for AI Engineers in India depends on experience: Entry-Level: ₹6–10 LPA, Mid-Level: ₹10–18 LPA, Senior-Level: ₹18–35 LPA or more, based on skills and industry. These ranges can vary depending on company size, location, and project scale."
+      },
+      {
+        "question": "How does learning the fundamentals at Coursevita set you up for success?",
+        "answer": "At Coursevita, the AI Engineer course begins with core skills like Python, data handling, and logic building. This solid foundation helps you avoid gaps in learning and makes it easier to master more complex topics like deep learning and deployment. With hands-on support, you’ll be prepared for real AI roles in tech industries."
+      },
+      {
+        "question": "What type of learning experience can I expect?",
+        "answer": "You’ll experience an engaging and practical journey. The course includes live sessions, hands-on labs, projects using real datasets, and step-by-step guidance. You’ll learn how to solve real problems using AI tools and techniques that are in demand across industries today."
+      },
+      {
+        "question": "What is the EMI payment process?",
+        "answer": "At Coursevita, you can pay for courses in easy EMIs. Select the course, choose the EMI option at checkout, pick your preferred bank, and complete the payment. Monthly installments will be automatically deducted based on your chosen tenure. For details, contact our support team - support@coursevita.com"
+      },
+      {
+        "question": "What are the profiles of the tutors?",
+        "answer": "Coursevita’s AI instructors are seasoned professionals with deep knowledge in Python, data science, deep learning, and cloud deployment. They have worked in leading tech companies and are passionate educators, combining real-world AI experience with clear, beginner-friendly teaching."
+      },
+      {
+        "question": "How will my doubts get solved?",
+        "answer": "Your doubts will be addressed through interactive Q&A sessions, discussion forums, and live chat support. You can also email our support team (support@coursevita.com) for personalized assistance, or connect with instructors during scheduled office hours for one-on-one help."
+      },
+      {
+        "question": "What is the refund policy at Coursevita?",
+        "answer": "Refunds are allowed before the batch commencement with a 50% processing fee on the initial payment. No refunds are permitted after the batch begins. For more details check out the refund policy."
+      }
+    ],
+    "jobRoles": [
+      {
+        "name": "AI Engineer",
+        "openings": "65K+",
+        "avgSalary": "₹8 - ₹20 LPA"
+      },
+      {
+        "name": "Machine Learning Engineer",
+        "openings": "40K+",
+        "avgSalary": "₹10 - ₹22 LPA"
+      },
+      {
+        "name": "Data Scientist",
+        "openings": "50K+",
+        "avgSalary": "₹8 - ₹18 LPA"
+      },
+      {
+        "name": "Computer Vision Engineer",
+        "openings": "12K+",
+        "avgSalary": "₹9 - ₹20 LPA"
+      },
+      {
+        "name": "NLP Engineer",
+        "openings": "10K+",
+        "avgSalary": "₹10 - ₹22 LPA"
+      },
+      {
+        "name": "AI Solutions Architect",
+        "openings": "7K+",
+        "avgSalary": "₹18 - ₹35 LPA"
+      },
+      {
+        "name": "Deep Learning Engineer",
+        "openings": "15K+",
+        "avgSalary": "₹10 - ₹25 LPA"
+      },
+      {
+        "name": "AI Product Analyst",
+        "openings": "8K+",
+        "avgSalary": "₹7 - ₹16 LPA"
+      }
+    ],
+    "ambitionBoxlinks": "https://www.naukri.com/ai-engineer-jobs",
+    "linkedinJobRoles": "https://www.linkedin.com/jobs/search/?keywords=AI%20engineer",
+    "certificates": {
+      "blackVersion": "/images/certificates/ai-engineer-bw.webp",
+      "colorVersion": "/images/certificates/ai-engineer-color.webp"
+    }
+  }
+]

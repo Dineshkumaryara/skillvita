@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive or non-indexable paths
+Disallow: /api/
+Disallow: /admin/
+
+# Crawl delay to be respectful (optional)
+# Crawl-delay: 1
+
+# If you host a sitemap, add it here
+# Sitemap: https://main-revitalize.vercel.app/sitemap.xml

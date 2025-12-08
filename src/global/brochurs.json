@@ -1,0 +1,11 @@
+{
+    "fullStackDevelopment": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/brochures/FULL_STACK_BROCHURE.pdf",
+    "commonBrochure" : "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/brochures/brochure.pdf",
+    "devops-aws":  "https://coursevita-storate.s3.ap-south-1.amazonaws.com/1734079406727-AWS-devOps_Final+Brochure.pdf",
+    "AIML" : "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/brochures/CourseVita's+MLOps+Course+Curriculum.pdf",
+    "data-analytics" : "https://coursevita-storate.s3.ap-south-1.amazonaws.com/1734073934584-Data+Analyst+_Final+Brochure.pdf",
+    "dataVisualization": "https://coursevita-main-site.s3.eu-north-1.amazonaws.com/brochures/Data+Visualization_V2.pdf",
+    "dataScience" : "https://coursevita-storate.s3.ap-south-1.amazonaws.com/1734079358932-Data+science_Final+Brochure.pdf",
+    "devops-azure":"https://coursevita-main-site.s3.eu-north-1.amazonaws.com/brochures/DevOps+with+Azure_Brochure.pdf",
+    "digital-marketing" : "https://coursevita-storate.s3.ap-south-1.amazonaws.com/1740223155373-DM+Brochure.pdf"
+}

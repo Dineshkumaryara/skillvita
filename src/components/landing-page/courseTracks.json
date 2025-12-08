@@ -1,0 +1,27 @@
+[
+  {
+    "course": "Data Science course",
+    "locations": ["Hyderabad", "Bangalore", "Mumbai", "Pune", "Chennai"]
+  },
+  {
+    "course": "DevOps with AWS course",
+    "locations": [
+      "Hyderabad", "Bangalore", "Pune", "Mumbai", "Delhi", "Ahmedabad",
+      "Coimbatore", "Chennai", "Chandigarh", "Noida", "Kolkata", "Kochi",
+      "Bhubaneswar", "Visakhapatnam", "Vijayawada", "Gurgaon", "Jaipur",
+      "Indore", "Kanpur", "Nagpur", "Madurai", "Bhopal", "Trivandrum",
+      "Guwahati", "Patna", "Aurangabad", "Trichy", "Salem", "Thane",
+      "Kerala", "Mysore", "Telugu", "Tamil", "Hindi"
+    ]
+  },
+  {
+    "course": "AI Engineer course",
+    "locations": [
+      "Hyderabad", "Bangalore", "Pune", "Mumbai", "Delhi", "Ahmedabad",
+      "Coimbatore", "Chennai", "Chandigarh", "Noida", "Kolkata", "Kochi",
+      "Bhubaneswar", "Visakhapatnam", "Vijayawada", "Gurgaon", "Jaipur",
+      "Guwahati", "Patna", "Aurangabad", "Trichy", "Salem", "Thane",
+      "Kerala", "Mysore", "Telugu", "Tamil", "Hindi"
+    ]
+  }
+]
