@@ -30,7 +30,7 @@ const WhyPlacementSection: React.FC<WhyPlacementSectionProps> = ({
                   {earlyUpskilling.title}
                 </h3>
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  Starting early helps students build confidence, gain practical exposure, and develop stronger portfolios for placements.
+                  {earlyUpskilling.description}
                 </p>
               </div>
 
@@ -43,7 +43,7 @@ const WhyPlacementSection: React.FC<WhyPlacementSectionProps> = ({
                   {whySkillvita.title}
                 </h3>
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  With experienced mentors, real simulations, and demo days, SkillVita turns preparation into tangible proof-of-work that showcases your capabilities.
+                  {whySkillvita.description}
                 </p>
               </div>
             </div>
