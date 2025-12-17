@@ -6,7 +6,7 @@ import ProjectCard from "@/components/projects/ProjectCard";
 import { PROJECTS } from "@/data/projectsData";
 import WhyFinalYearProjects from "./_components/whyFinalYearProjects";
 import HowItWorks from "./_components/howItWorks";
-import FAQs from "@/components/course-overview/faqs";
+import FinalYearQA from "@/components/FinalYearProject/FinalYearQA";
 
 type Project = {
   _id: string;
@@ -98,7 +98,7 @@ const FinalYearProjectsPage = () => {
           >
             <source src="/videos/eventsHero.mp4" type="video/mp4" />
           </video>
-          
+
 
           <div className="relative z-20 text-white max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-bold">Final Year Projects</h1>
@@ -151,11 +151,10 @@ const FinalYearProjectsPage = () => {
                 {[...Array(totalPages)].map((_, i) => (
                   <button
                     key={i}
-                    className={`mx-1 px-3 py-1 rounded font-outfit ${
-                      currentPage === i + 1
-                        ? "bg-accent-500 text-brand-500 font-semibold"
-                        : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
-                    }`}
+                    className={`mx-1 px-3 py-1 rounded font-outfit ${currentPage === i + 1
+                      ? "bg-accent-500 text-brand-500 font-semibold"
+                      : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
+                      }`}
                     onClick={() => setCurrentPage(i + 1)}
                   >
                     {i + 1}
@@ -174,7 +173,46 @@ const FinalYearProjectsPage = () => {
         </div>
 
         <HowItWorks />
-        <FAQs faqs={finalYearFAQs} />
+
+        <FinalYearQA faqs={finalYearFAQs} />
+
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": finalYearFAQs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "QAPage",
+              "mainEntity": {
+                "@type": "Question",
+                "name": "How does Redis help JWT authentication?",
+                "text": "Why is Redis used with JWT tokens?",
+                "answerCount": 1,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Redis helps by storing token blacklists and session metadata."
+                }
+              }
+            })
+          }}
+        />
       </div>
     </div>
   );

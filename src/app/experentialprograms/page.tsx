@@ -8,6 +8,26 @@ import ExperienceFlow from "@/components/experentialprograms/ExperienceFlow";
 import ValueProposition from "@/components/experentialprograms/ValueProposition";
 import Audience from "@/components/experentialprograms/Audience";
 import FinalCTA from "@/components/experentialprograms/FinalCTA";
+import ExperientialQA from "@/components/experentialprograms/ExperientialQA";
+
+const experientialFAQs = [
+  {
+    question: "How is this different from an internship?",
+    answer: "Experiential programs focus on specific skill acquisition through guided projects and mentorship, whereas internships are role-based work experiences. These programs are designed to build your portfolio before you apply for internships."
+  },
+  {
+    question: "Do I get a certificate?",
+    answer: "Yes, you receive a certificate of completion that validates the specific skills and projects you've mastered during the program."
+  },
+  {
+    question: "What is the duration?",
+    answer: "Programs typically run for 4-8 weeks, with flexible schedules designed for students and working professionals."
+  },
+  {
+    question: "Is mentorship included?",
+    answer: "Absolutely. You get 1:1 mentorship from industry experts who review your code and guide your project implementation."
+  }
+];
 
 export default function ExperentialProgramsPage() {
   useEffect(() => {
@@ -80,6 +100,103 @@ export default function ExperentialProgramsPage() {
       <ExperienceFlow />
       <ValueProposition />
       <Audience />
+      <Audience />
+
+      {/* Community Q&A Section */}
+      <section className="py-16 bg-black relative z-10">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 font-outfit text-white">
+              Community Q&A
+            </h2>
+            <p className="text-lg text-gray-400">
+              Common technical questions discussed by our community
+            </p>
+          </div>
+
+          <div className="bg-[#18181B] rounded-2xl p-8 border border-[#27272A] shadow-lg">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 mt-1">
+                <div className="w-10 h-10 rounded-full bg-green-900/30 flex items-center justify-center text-green-400 font-bold text-xl">
+                  Q
+                </div>
+              </div>
+              <div className="flex-grow">
+                <h3 className="text-xl font-semibold mb-2 text-white">
+                  How does Redis help JWT authentication?
+                </h3>
+                <p className="text-gray-400 mb-6">
+                  Why is Redis used with JWT tokens?
+                </p>
+
+                <div className="bg-black/40 rounded-xl p-6 border border-gray-800">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 mt-1">
+                      <div className="w-8 h-8 rounded-full bg-green-900/30 flex items-center justify-center text-green-400 font-bold text-sm">
+                        A
+                      </div>
+                    </div>
+                    <div>
+                      <p className="text-gray-300">
+                        Redis helps by storing token blacklists and session metadata.
+                        <span className="block mt-2 text-sm text-green-400 font-medium">
+                          ✓ Accepted Answer
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-6 border-t border-gray-800 flex justify-between items-center text-sm text-gray-400">
+              <span>Asked by Community Member</span>
+              <span>1 Answer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": experientialFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "QAPage",
+            "mainEntity": {
+              "@type": "Question",
+              "name": "How does Redis help JWT authentication?",
+              "text": "Why is Redis used with JWT tokens?",
+              "answerCount": 1,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Redis helps by storing token blacklists and session metadata."
+              }
+            }
+          })
+        }}
+      />
+
       <FinalCTA />
       <style jsx global>{`
         .bg-grid-pattern { background-image: linear-gradient(to right, #18181b 1px, transparent 1px), linear-gradient(to bottom, #18181b 1px, transparent 1px); background-size: 40px 40px; mask-image: radial-gradient(circle at center, black, transparent 80%); }

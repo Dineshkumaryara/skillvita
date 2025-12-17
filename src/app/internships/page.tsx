@@ -13,12 +13,32 @@ import ListViewClient from "@/components/Internships/ListViewClient";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Fingerprint } from "lucide-react";
+import InternshipQA from "@/components/Internships/InternshipQA";
 
 export const metadata: Metadata = {
   title: "Internships | SkillVita",
   description:
     "Explore verified internships with details on duration, skills, eligibility, and pay.",
 };
+
+const internshipFAQs = [
+  {
+    question: "Are these internships paid?",
+    answer: "Details on stipends and pay are listed on each specific internship opportunity. We offer both paid and unpaid learning internships."
+  },
+  {
+    question: "Do I get a certificate?",
+    answer: "Yes, upon successful completion of the internship and verified project work, you receive a recognized certificate."
+  },
+  {
+    question: "What is the duration?",
+    answer: "Durations vary from 1 to 6 months depending on the role and your availability. Most are flexible to fit academic schedules."
+  },
+  {
+    question: "Is it remote?",
+    answer: "Most of our internships are remote-first, allowing you to work from anywhere. Some hybrid options may be available."
+  }
+];
 
 export default async function InternshipsPage() {
   const internships = await getInternships();
@@ -29,7 +49,7 @@ export default async function InternshipsPage() {
         <Hero />
       </section>
 
-      
+
 
       <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
         <Overview />
@@ -88,7 +108,7 @@ export default async function InternshipsPage() {
             </div>
           </div>
 
-         
+
         </div>
       </section>
 
@@ -98,11 +118,51 @@ export default async function InternshipsPage() {
         </div>
       </section>
 
+      <InternshipQA faqs={internshipFAQs} />
+
       <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
         <GetStarted />
       </section>
 
-      
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": internshipFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "QAPage",
+            "mainEntity": {
+              "@type": "Question",
+              "name": "How does Redis help JWT authentication?",
+              "text": "Why is Redis used with JWT tokens?",
+              "answerCount": 1,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Redis helps by storing token blacklists and session metadata."
+              }
+            }
+          })
+        }}
+      />
+
+
 
     </main>
   );
