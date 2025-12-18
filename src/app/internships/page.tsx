@@ -125,6 +125,76 @@ export default async function InternshipsPage() {
       </section>
 
       {/* Structured Data */}
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Internships | SkillVita",
+            "description": "Explore verified internships with details on duration, skills, eligibility, and pay.",
+            "url": "https://main-revitalize.vercel.app/internships",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "url": "https://main-revitalize.vercel.app/internships#list",
+            "name": "Internship Listings",
+            "description": "Browse available internships",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": internships.map((item, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": {
+                  "@type": "JobPosting",
+                  "title": item.title,
+                  "description": `<p>Internship at ${item.company} in ${item.domain}.</p><p><strong>Skills:</strong> ${item.skills.join(', ')}</p><p><strong>Duration:</strong> ${item.duration}</p><p><strong>Type:</strong> ${item.type}</p>`,
+                  "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": item.company
+                  },
+                  "jobLocation": item.type === 'remote' ? {
+                    "@type": "Place",
+                    "name": "Remote"
+                  } : {
+                    "@type": "Place",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressLocality": item.location,
+                      "addressCountry": "IN"
+                    }
+                  },
+                  "jobLocationType": item.type === 'remote' ? "TELECOMMUTE" : undefined,
+                  "baseSalary": item.stipend ? {
+                    "@type": "MonetaryAmount",
+                    "currency": "INR",
+                    "value": {
+                      "@type": "QuantitativeValue",
+                      "value": parseInt(item.stipend.replace(/[^0-9]/g, '')) || 0,
+                      "unitText": "MONTH"
+                    }
+                  } : undefined,
+                  "employmentType": "INTERN",
+                  "datePosted": new Date().toISOString().split('T')[0],
+                  "url": `https://main-revitalize.vercel.app/internships#internship-${item.id}`
+                }
+              }))
+            }
+          })
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -147,16 +217,35 @@ export default async function InternshipsPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "QAPage",
-            "mainEntity": {
-              "@type": "Question",
-              "name": "How does Redis help JWT authentication?",
-              "text": "Why is Redis used with JWT tokens?",
-              "answerCount": 1,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Redis helps by storing token blacklists and session metadata."
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Internships",
+                "item": "https://main-revitalize.vercel.app/internships"
               }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
             }
           })
         }}

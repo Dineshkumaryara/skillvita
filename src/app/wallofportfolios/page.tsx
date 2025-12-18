@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Hero from "../../components/WallOfPortfolios/Hero";
 import WhyMatter from "../../components/WallOfPortfolios/WhyMatter";
 import WhatShow from "../../components/WallOfPortfolios/WhatShow";
-import PortfolioWall from "../../components/WallOfPortfolios/PortfolioWall";
+import PortfolioWall, { ITEMS } from "../../components/WallOfPortfolios/PortfolioWall";
 import WhatReveals from "../../components/WallOfPortfolios/WhatReveals";
 import RecruitersStart from "../../components/WallOfPortfolios/RecruitersStart";
 import FinalCTA from "../../components/WallOfPortfolios/FinalCTA";
@@ -49,15 +49,47 @@ export default function WallOfPortfoliosPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": wallFAQs.map(faq => ({
-              "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-              }
-            }))
+            "@type": "WebPage",
+            "name": "Wall of Portfolios | SkillVita",
+            "description": "Showcase of student portfolios emphasizing verified skills, projects, and career outcomes.",
+            "url": "https://main-revitalize.vercel.app/wallofportfolios",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "url": "https://main-revitalize.vercel.app/wallofportfolios",
+            "name": "Featured Student Portfolios",
+            "description": "Selected portfolios of top performing students.",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": ITEMS.map((item, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": item.title,
+                  "headline": item.title,
+                  "alternativeHeadline": item.subtitle,
+                  "description": `${item.title} - ${item.subtitle}. A featured ${item.category} project.`,
+                  "image": item.image,
+                  "genre": item.category,
+                  "author": {
+                    "@type": "Organization",
+                    "name": "SkillVita Student"
+                  }
+                }
+              }))
+            }
           })
         }}
       />
@@ -76,6 +108,61 @@ export default function WallOfPortfoliosPage() {
                 "@type": "Answer",
                 "text": "Redis helps by storing token blacklists and session metadata."
               }
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": wallFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Wall of Portfolios",
+                "item": "https://main-revitalize.vercel.app/wallofportfolios"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
             }
           })
         }}

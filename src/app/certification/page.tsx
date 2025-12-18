@@ -47,6 +47,104 @@ export default function CertificationPage() {
       <HowItWorks />
       <FAQs faqs={certificationFAQs} />
       <Career />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Job Simulation Certification | SkillVita",
+            "description": "Gain hands-on experience through job simulations and earn industry-recognized credentials. Validated by real-world projects and expert mentorship.",
+            "url": "https://main-revitalize.vercel.app/certification",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOccupationalProgram",
+            "name": "Job Simulation Certification",
+            "description": "A comprehensive certification program where students complete real-world project simulations to build practical skills and professional capabilities.",
+            "provider": {
+              "@type": "Organization",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            },
+            "timeToComplete": "P8W",
+            "educationalCredentialAwarded": "Industry-Recognized Certificate",
+            "programPrerequisites": "No prior professional experience required",
+            "occupationalCategory": "Professional Certification",
+            "offers": {
+              "@type": "Offer",
+              "category": "Educational Program"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": certificationFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Certification",
+                "item": "https://main-revitalize.vercel.app/certification"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
+      />
     </div>
   );
 }

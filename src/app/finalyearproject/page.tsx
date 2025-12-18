@@ -182,6 +182,81 @@ const FinalYearProjectsPage = () => {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Final Year Projects | SkillVita",
+              "description": "Explore real-world projects to elevate your portfolio. Get hands-on with modern tools and ship outcomes you’re proud of.",
+              "url": "https://main-revitalize.vercel.app/finalyearproject",
+              "isPartOf": {
+                "@type": "Website",
+                "name": "SkillVita",
+                "url": "https://main-revitalize.vercel.app"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": "How Final Year Projects Work",
+              "step": [
+                {
+                  "@type": "HowToStep",
+                  "position": 1,
+                  "name": "Select Your Project",
+                  "text": "Select Your Project"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 2,
+                  "name": "Get Resources & Plan",
+                  "text": "Get Resources & Plan"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 3,
+                  "name": "Build With Mentorship",
+                  "text": "Build With Mentorship"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 4,
+                  "name": "Complete & Document",
+                  "text": "Complete & Document"
+                }
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "EducationalOccupationalProgram",
+              "name": "Final Year Projects",
+              "description": "A major academic requirement where you build a comprehensive technical project that demonstrates your skills and becomes a key portfolio piece.",
+              "provider": {
+                "@type": "Organization",
+                "name": "SkillVita",
+                "url": "https://main-revitalize.vercel.app"
+              },
+              "timeToComplete": "P12W",
+              "educationalCredentialAwarded": "Project Completion Certificate",
+              "offers": {
+                "@type": "Offer",
+                "category": "Educational Program"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
               "@type": "FAQPage",
               "mainEntity": finalYearFAQs.map(faq => ({
                 "@type": "Question",
@@ -199,16 +274,35 @@ const FinalYearProjectsPage = () => {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "QAPage",
-              "mainEntity": {
-                "@type": "Question",
-                "name": "How does Redis help JWT authentication?",
-                "text": "Why is Redis used with JWT tokens?",
-                "answerCount": 1,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Redis helps by storing token blacklists and session metadata."
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://main-revitalize.vercel.app"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Final Year Project",
+                  "item": "https://main-revitalize.vercel.app/finalyearproject"
                 }
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
               }
             })
           }}

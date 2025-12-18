@@ -90,19 +90,19 @@ function StudentPlacementsPage() {
   return (
     <div className="bg-white dark:bg-black">
       {/* Hero Section with Placement-specific content */}
-      <PlacementHero 
+      <PlacementHero
         {...heroContent}
-        onStartLearning={scrollToSessions} 
+        onStartLearning={scrollToSessions}
       />
 
       {/* Why Early Upskilling & Why SkillVita */}
-      <WhyPlacementSection 
+      <WhyPlacementSection
         earlyUpskilling={whyContent.earlyUpskilling}
         whySkillvita={whyContent.whySkillvita}
       />
 
       {/* Student Opportunities */}
-      <StudentOpportunities 
+      <StudentOpportunities
         {...opportunitiesContent}
       />
 
@@ -129,6 +129,132 @@ function StudentPlacementsPage() {
 
       {/* FAQs - Reused */}
       <FAQs faqs={studentPlacementFAQs} />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Student Placements & Success Stories | SkillVita",
+            "description": "Create a portfolio that moves you closer to your first job. Real placement outcomes and student success stories from SkillVita's upskilling journey.",
+            "url": "https://main-revitalize.vercel.app/student-placements",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Student Success Stories",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Person",
+                  "name": "Gauthami Kulkarni",
+                  "jobTitle": "Full Stack Developer",
+                  "description": "Learned coding step by step through projects and mentorship. Ready for dream job."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Person",
+                  "name": "Sai Kiran",
+                  "jobTitle": "Data Analyst",
+                  "description": "Smart move to take Data Analytics course. Ready to work as a data analyst."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Person",
+                  "name": "Aparna Ch",
+                  "jobTitle": "Data Scientist",
+                  "description": "Well-prepared and knowledgeable through practical curriculum tailored to real-world scenarios."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "Person",
+                  "name": "Sheetal S",
+                  "jobTitle": "AI Professional",
+                  "description": "Learned artificial intelligence through interesting projects and smart mentors."
+                }
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": studentPlacementFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Student Placements",
+                "item": "https://main-revitalize.vercel.app/student-placements"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
+      />
     </div>
   );
 }

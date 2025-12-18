@@ -91,30 +91,98 @@ export default function Projects() {
     <>
       {/* ========= Structured Data: /projects page ========= */}
       <Script
-        id="projects-structured-data"
+        id="projects-webpage-data"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ItemList",
-            itemListElement: PROJECTS.map((project, index) => ({
-              "@type": "ListItem",
-              position: index + 1,
-              item: {
-                "@type": "SoftwareApplication",
-                name: project.name,
-                description: project.description,
-                applicationCategory: "DeveloperApplication",
-                operatingSystem: "Web",
-                url: `https://skillvita.coursevita.com/projects/${project.id}`,
-                author: {
-                  "@type": "Organization",
-                  name: "SkillVita",
-                },
+            "@type": "WebPage",
+            "name": "Projects | SkillVita",
+            "description": "Browse a diverse range of hands-on projects including web development, mobile apps, data science, machine learning, and more.",
+            "url": "https://main-revitalize.vercel.app/projects",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <Script
+        id="projects-collection-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "url": "https://main-revitalize.vercel.app/projects",
+            "name": "Project Listings",
+            "description": "Explore practical projects to build your portfolio.",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": PROJECTS.map((project, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": project.name,
+                  "description": project.description,
+                  "applicationCategory": "DeveloperApplication",
+                  "operatingSystem": "Web, Mobile, Desktop",
+                  "keywords": [...(project.skills || []), ...(project.stack || [])].join(", "),
+                  "url": `https://main-revitalize.vercel.app/projects/${project.id}`,
+                  "author": {
+                    "@type": "Organization",
+                    "name": "SkillVita"
+                  }
+                }
+              }))
+            }
+          })
+        }}
+      />
+      <Script
+        id="projects-breadcrumb-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
               },
-            })),
-          }),
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Projects",
+                "item": "https://main-revitalize.vercel.app/projects"
+              }
+            ]
+          })
+        }}
+      />
+      <Script
+        id="projects-org-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
         }}
       />
 
@@ -220,9 +288,10 @@ export default function Projects() {
         <ProjectsLowerSection />
         <Preend />
 
-       
+
 
         {/* Helper Scripts for FAQ and QAPage */}
+        {/* Helper Scripts for FAQ */}
         <Script
           id="faq-structured-data"
           type="application/ld+json"
@@ -239,27 +308,6 @@ export default function Projects() {
                   "text": faq.answer
                 }
               }))
-            })
-          }}
-        />
-        <Script
-          id="qa-structured-data"
-          type="application/ld+json"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "QAPage",
-              "mainEntity": {
-                "@type": "Question",
-                "name": "How does Redis help JWT authentication?",
-                "text": "Why is Redis used with JWT tokens?",
-                "answerCount": 1,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Redis helps by storing token blacklists and session metadata."
-                }
-              }
             })
           }}
         />

@@ -70,15 +70,15 @@ export default function CollegePartnership() {
   return (
     <div className="bg-white dark:bg-black -mt-5">
       <PartnershipHero />
-      
+
       {/* Why Modern Colleges Need This & New Standard */}
-      <WhyPlacementSection 
+      <WhyPlacementSection
         earlyUpskilling={whyContent.earlyUpskilling}
         whySkillvita={whyContent.whySkillvita}
       />
 
       {/* CRT Program Components */}
-      <StudentOpportunities 
+      <StudentOpportunities
         {...opportunitiesContent}
       />
 
@@ -102,6 +102,167 @@ export default function CollegePartnership() {
 
       {/* FAQs */}
       <FAQs faqs={partnershipFAQs} />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Campus Recruitment Training (CRT) | SkillVita",
+            "description": "Upgrade your placement ecosystem with SkillVita's Campus Recruitment Training. Includes job simulations, project-based learning, and verified portfolios.",
+            "url": "https://main-revitalize.vercel.app/crt",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOccupationalProgram",
+            "name": "Campus Recruitment Training (CRT)",
+            "description": "A complete learning + doing + hiring system integrating industry-aligned simulations, CRT training, and proof-of-work portfolios to strengthen placement performance.",
+            "provider": {
+              "@type": "Organization",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            },
+            "educationalCredentialAwarded": "Project Certificates & Verified Portfolio",
+            "programPrerequisites": "Engineering and modern college students",
+            "occupationalCategory": "Career Placement Preparation",
+            "offers": {
+              "@type": "Offer",
+              "category": "Educational Program"
+            },
+            "hasPart": [
+              {
+                "@type": "Syllabus",
+                "name": "Aptitude (Quant, LR, DI)"
+              },
+              {
+                "@type": "Syllabus",
+                "name": "Communication Training"
+              },
+              {
+                "@type": "Syllabus",
+                "name": "Technical Foundations"
+              },
+              {
+                "@type": "Syllabus",
+                "name": "Mock Interviews"
+              },
+              {
+                "@type": "Syllabus",
+                "name": "Resume & Portfolio Structuring"
+              },
+              {
+                "@type": "Syllabus",
+                "name": "Simulation-Based Practice"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How Students Become Job-Ready through CRT",
+            "description": "SkillVita's 5-step journey to prepare students for campus recruitment and placements.",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "name": "Role Understanding",
+                "itemListElement": [{ "@type": "HowToDirection", "text": "Through Launch simulations." }]
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Skilling Through Doing",
+                "itemListElement": [{ "@type": "HowToDirection", "text": "Guided tasks & structured execution." }]
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Build Proof-of-Work",
+                "itemListElement": [{ "@type": "HowToDirection", "text": "Projects, simulations, certificates." }]
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Placement Readiness",
+                "itemListElement": [{ "@type": "HowToDirection", "text": "CRT + communication + clarity." }]
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Recruiter Visibility",
+                "itemListElement": [{ "@type": "HowToDirection", "text": "Portfolios become discoverable." }]
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": partnershipFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "CRT",
+                "item": "https://main-revitalize.vercel.app/crt"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
+      />
     </div>
   );
 }

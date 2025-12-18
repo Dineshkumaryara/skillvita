@@ -11,25 +11,87 @@ import PortfolioAdvantage from "@/components/FresherPlacement/PortfolioAdvantage
 import FinalCTA from "@/components/FresherPlacement/FinalCTA";
 
 export default function FresherPlacementPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "SkillVita Fresher Placement Program",
-    "description": "Build job-ready skills, real proof-of-work, and a portfolio that helps you stand out before placement season even begins.",
-    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "INR",
-      "availability": "https://schema.org/InStock"
-    }
-  };
+
 
   return (
     <main className="font-sans antialiased text-white bg-black selection:bg-[#22c55e] selection:text-black overflow-x-hidden">
+      {/* Structured Data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Fresher Placement Program | SkillVita",
+            "description": "Build job-ready skills, real proof-of-work, and a portfolio that helps you stand out before placement season even begins.",
+            "url": "https://main-revitalize.vercel.app/fresher-placement",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOccupationalProgram",
+            "name": "Fresher Placement Program",
+            "description": "A structured program providing clarity, guided execution, and mentor-reviewed outcomes to build a professional identity and portfolio for placement success.",
+            "provider": {
+              "@type": "Organization",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            },
+            "educationalCredentialAwarded": "Placement Readiness Profile",
+            "occupationalCategory": "Career Development",
+            "offers": {
+              "@type": "Offer",
+              "category": "Educational Program"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Fresher Placement",
+                "item": "https://main-revitalize.vercel.app/fresher-placement"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
       />
       <Hero />
       <Overview />

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import FeatureCard from "@/components/experentialprograms/FeatureCard";
+import FeatureCard from "@/components/experientialprograms/FeatureCard";
 import { Briefcase, BadgeCheck, Sparkles, FileCheck, Wrench, Rocket } from "lucide-react";
 
 export default function WhyExperiential() {
