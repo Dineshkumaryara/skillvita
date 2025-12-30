@@ -52,7 +52,7 @@
 
 @theme {
   --font-*: initial;
-  --font-Aeonik: Aeonik, sans-serif;
+  --font-Aeonik: "IBM Plex Sans", sans-serif;
 
   --breakpoint-*: initial;
   --breakpoint-2xsm: 375px;
@@ -639,4 +639,3 @@ img {
 .dark .contact-scope a:hover {
   color: #ffffff !important;
 }
-
