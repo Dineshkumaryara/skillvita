@@ -60,11 +60,11 @@ export default function ListView({ items }: ListViewProps) {
         ))}
       </div>
 
-      <div
+      {/* <div
         ref={sentinelRef}
         className="mt-8 h-6 w-full"
         aria-hidden
-      />
+      /> */}
 
       {shown.length === 0 && (
         <div className="flex flex-col items-center justify-center py-20 text-center rounded-2xl bg-neutral-900 border border-dashed border-neutral-800">

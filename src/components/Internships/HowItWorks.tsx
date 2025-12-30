@@ -36,7 +36,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section aria-labelledby="how-it-works-heading" className="bg-black py-16 lg:py-24">
+    <section aria-labelledby="how-it-works-heading" className="bg-black">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="mb-12 text-center">
           <h2 id="how-it-works-heading" className="text-3xl font-bold tracking-tight text-white sm:text-4xl">

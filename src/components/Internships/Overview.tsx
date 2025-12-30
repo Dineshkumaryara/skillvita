@@ -5,9 +5,9 @@ export default function Overview() {
     <section className="bg-neutral-950 py-16 border-b border-neutral-900 rounded-2xl">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 id="overview-heading" className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-8">
+          {/* <h2 id="overview-heading" className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-8">
              <span className="text-emerald-500">Overview</span>
-          </h2>
+          </h2> */}
           <div className="rounded-2xl border border-neutral-800 bg-neutral-900/50 p-8 hover:border-emerald-500/50 transition-all duration-300">
             <div className="prose prose-lg prose-invert mx-auto text-neutral-400">
               <p className="mb-6 leading-relaxed">

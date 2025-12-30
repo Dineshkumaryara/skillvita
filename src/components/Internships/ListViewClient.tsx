@@ -6,7 +6,7 @@ import type { Internship } from "@/lib/internships";
 const ListView = dynamic(() => import("./ListView"), {
   ssr: false,
   loading: () => (
-    <section className="bg-black py-16 lg:py-24" aria-live="polite">
+    <section className="bg-black " aria-live="polite">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 6 }).map((_, i) => (

@@ -14,7 +14,7 @@ export default function GetStarted() {
   return (
     <div
       onClick={scrollToInternships}
-      className="flex flex-col h-full rounded-2xl border border-neutral-800 bg-neutral-900/50 p-8 hover:border-emerald-500/50 transition-all duration-300 group cursor-pointer"
+      className="flex flex-col items-center justify-center text-center h-full rounded-2xl border border-neutral-800 bg-neutral-900/50 p-8 hover:border-emerald-500/50 transition-all duration-300 group cursor-pointer"
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {

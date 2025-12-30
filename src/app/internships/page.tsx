@@ -43,11 +43,11 @@ export default async function InternshipsPage() {
         <OutcomesGrid />
       </section>
 
-      <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
+      <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <WhyInternships />
       </section>
 
-      <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
+      <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 mt-7">
         <WhySkillVita />
       </section>
 
@@ -92,7 +92,7 @@ export default async function InternshipsPage() {
         </div>
       </section>
 
-      <section id="list" className="bg-black py-16 lg:py-24">
+      <section id="list" className="bg-black">
         <div className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <ListViewClient items={internships as Internship[]} />
         </div>
