@@ -82,6 +82,68 @@ function CommunityPage() {
       <div ref={faqRef} className="bg-black">
         <FAQs faqs={communityFAQs} />
       </div>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "@id": "https://skillvita.in/community/#webpage",
+              "url": "https://skillvita.in/community",
+              "name": "Community | SkillVita",
+              "description": "Join a fast-growing skill-based student ecosystem designed for future-ready learners. Learn with peers, work on projects, earn credentials, and unlock real opportunities.",
+              "breadcrumb": { "@id": "https://skillvita.in/community/#breadcrumb" },
+              "publisher": { "@id": "https://skillvita.in/#organization" }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": communityFAQs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "@id": "https://skillvita.in/community/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://skillvita.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Community",
+                  "item": "https://skillvita.in/community"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://skillvita.in/#organization",
+              "name": "SkillVita",
+              "url": "https://skillvita.in",
+              "logo": "https://skillvita.in/icon.svg",
+              "sameAs": [
+                "https://www.linkedin.com/company/skillvita/",
+                "https://www.instagram.com/skillvita.in/"
+              ]
+            }
+          ])
+        }}
+      />
     </main>
   );
 }

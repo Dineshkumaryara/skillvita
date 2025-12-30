@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import TimelineStep from "@/components/experentialprograms/TimelineStep";
+import TimelineStep from "@/components/experientialprograms/TimelineStep";
 
 export default function ExperienceFlow() {
   const steps = [

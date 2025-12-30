@@ -7,8 +7,50 @@ const fadeIn: Variants = { hidden: { opacity: 0, y: 30 }, visible: { opacity: 1,
 const staggerContainer: Variants = { hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.15, delayChildren: 0.1 } } };
 
 export default function Roadmap() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Start Your Fresher Placement Journey with SkillVita",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Build Your Profile",
+        "text": "Create a clean, recruiter-friendly profile that highlights your strengths.",
+        "position": 1
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Build Skills Through Doing",
+        "text": "Follow guided modules designed around real industry expectations.",
+        "position": 2
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Create Proof-of-Work",
+        "text": "Work on tasks, projects, and challenges that reflect real responsibilities.",
+        "position": 3
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Strengthen Placement Readiness",
+        "text": "Refine communication, improve clarity, and prepare your portfolio.",
+        "position": 4
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Track Your Growth",
+        "text": "Your work and assessments update automatically as verified capability.",
+        "position": 5
+      }
+    ]
+  };
+
   return (
     <section className="py-24 bg-zinc-950 relative overflow-hidden border-t border-zinc-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <motion.div className="text-center mb-16" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
           <h2 className="text-sm font-bold text-[#22c55e] uppercase tracking-widest mb-3">Roadmap</h2>

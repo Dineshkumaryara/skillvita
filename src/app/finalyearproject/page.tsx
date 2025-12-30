@@ -6,7 +6,7 @@ import ProjectCard from "@/components/projects/ProjectCard";
 import { PROJECTS } from "@/data/projectsData";
 import WhyFinalYearProjects from "./_components/whyFinalYearProjects";
 import HowItWorks from "./_components/howItWorks";
-import FAQs from "@/components/course-overview/faqs";
+import FinalYearQA from "@/components/FinalYearProject/FinalYearQA";
 
 type Project = {
   _id: string;
@@ -98,7 +98,7 @@ const FinalYearProjectsPage = () => {
           >
             <source src="/videos/eventsHero.mp4" type="video/mp4" />
           </video>
-          
+
 
           <div className="relative z-20 text-white max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-bold">Final Year Projects</h1>
@@ -151,11 +151,10 @@ const FinalYearProjectsPage = () => {
                 {[...Array(totalPages)].map((_, i) => (
                   <button
                     key={i}
-                    className={`mx-1 px-3 py-1 rounded font-outfit ${
-                      currentPage === i + 1
-                        ? "bg-accent-500 text-brand-500 font-semibold"
-                        : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
-                    }`}
+                    className={`mx-1 px-3 py-1 rounded font-outfit ${currentPage === i + 1
+                      ? "bg-accent-500 text-brand-500 font-semibold"
+                      : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
+                      }`}
                     onClick={() => setCurrentPage(i + 1)}
                   >
                     {i + 1}
@@ -174,7 +173,140 @@ const FinalYearProjectsPage = () => {
         </div>
 
         <HowItWorks />
-        <FAQs faqs={finalYearFAQs} />
+
+        <FinalYearQA faqs={finalYearFAQs} />
+
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Final Year Projects | SkillVita",
+              "description": "Explore real-world projects to elevate your portfolio. Get hands-on with modern tools and ship outcomes you’re proud of.",
+              "url": "https://main-revitalize.vercel.app/finalyearproject",
+              "isPartOf": {
+                "@type": "Website",
+                "name": "SkillVita",
+                "url": "https://main-revitalize.vercel.app"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": "How Final Year Projects Work",
+              "step": [
+                {
+                  "@type": "HowToStep",
+                  "position": 1,
+                  "name": "Select Your Project",
+                  "text": "Select Your Project"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 2,
+                  "name": "Get Resources & Plan",
+                  "text": "Get Resources & Plan"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 3,
+                  "name": "Build With Mentorship",
+                  "text": "Build With Mentorship"
+                },
+                {
+                  "@type": "HowToStep",
+                  "position": 4,
+                  "name": "Complete & Document",
+                  "text": "Complete & Document"
+                }
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "EducationalOccupationalProgram",
+              "name": "Final Year Projects",
+              "description": "A major academic requirement where you build a comprehensive technical project that demonstrates your skills and becomes a key portfolio piece.",
+              "provider": {
+                "@type": "Organization",
+                "name": "SkillVita",
+                "url": "https://main-revitalize.vercel.app"
+              },
+              "timeToComplete": "P12W",
+              "educationalCredentialAwarded": "Project Completion Certificate",
+              "offers": {
+                "@type": "Offer",
+                "category": "Educational Program"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": finalYearFAQs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://main-revitalize.vercel.app"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Final Year Project",
+                  "item": "https://main-revitalize.vercel.app/finalyearproject"
+                }
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+              }
+            })
+          }}
+        />
       </div>
     </div>
   );

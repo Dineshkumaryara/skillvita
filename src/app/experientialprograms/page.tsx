@@ -1,13 +1,33 @@
 "use client";
 import React, { useEffect } from "react";
-import HeroSection from "@/components/experentialprograms/HeroSection";
-import OverviewSection from "@/components/experentialprograms/OverviewSection";
-import WhyExperiential from "@/components/experentialprograms/WhyExperiential";
-import Highlights from "@/components/experentialprograms/Highlights";
-import ExperienceFlow from "@/components/experentialprograms/ExperienceFlow";
-import ValueProposition from "@/components/experentialprograms/ValueProposition";
-import Audience from "@/components/experentialprograms/Audience";
-import FinalCTA from "@/components/experentialprograms/FinalCTA";
+import HeroSection from "@/components/experientialprograms/HeroSection";
+import OverviewSection from "@/components/experientialprograms/OverviewSection";
+import WhyExperiential from "@/components/experientialprograms/WhyExperiential";
+import Highlights from "@/components/experientialprograms/Highlights";
+import ExperienceFlow from "@/components/experientialprograms/ExperienceFlow";
+import ValueProposition from "@/components/experientialprograms/ValueProposition";
+import Audience from "@/components/experientialprograms/Audience";
+import FinalCTA from "@/components/experientialprograms/FinalCTA";
+import ExperientialQA from "@/components/experientialprograms/ExperientialQA";
+
+const experientialFAQs = [
+  {
+    question: "How is this different from an internship?",
+    answer: "Experiential programs focus on specific skill acquisition through guided projects and mentorship, whereas internships are role-based work experiences. These programs are designed to build your portfolio before you apply for internships."
+  },
+  {
+    question: "Do I get a certificate?",
+    answer: "Yes, you receive a certificate of completion that validates the specific skills and projects you've mastered during the program."
+  },
+  {
+    question: "What is the duration?",
+    answer: "Programs typically run for 4-8 weeks, with flexible schedules designed for students and working professionals."
+  },
+  {
+    question: "Is mentorship included?",
+    answer: "Absolutely. You get 1:1 mentorship from industry experts who review your code and guide your project implementation."
+  }
+];
 
 export default function ExperentialProgramsPage() {
   useEffect(() => {
@@ -80,6 +100,134 @@ export default function ExperentialProgramsPage() {
       <ExperienceFlow />
       <ValueProposition />
       <Audience />
+      <ExperientialQA faqs={experientialFAQs} />
+
+
+
+
+
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Experiential Programs | SkillVita",
+            "description": "Hands-on experiential programs that simulate real job workflows, bridging the gap between learning and internships.",
+            "url": "https://main-revitalize.vercel.app/experientialprograms",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOccupationalProgram",
+            "name": "Experiential Programs",
+            "description": "Structured experiential learning programs designed to build portfolio-ready proof of work through role-based simulations and guided projects.",
+            "provider": {
+              "@type": "Organization",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            },
+            "timeToComplete": "P4W",
+            "educationalCredentialAwarded": "Certificate of Completion",
+            "occupationalCategory": "Career Skills, Technology, Business, Design",
+            "hasCourse": {
+              "@type": "Course",
+              "name": "Experiential Learning Track",
+              "description": "A 4-8 week program focusing on role-based simulations, capability tasks, and mentor-guided projects."
+            },
+            "offers": {
+              "@type": "Offer",
+              "category": "Educational Program"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": experientialFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "QAPage",
+            "mainEntity": {
+              "@type": "Question",
+              "name": "How does Redis help JWT authentication?",
+              "text": "Why is Redis used with JWT tokens?",
+              "answerCount": 1,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Redis helps by storing token blacklists and session metadata."
+              }
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Experiential Programs",
+                "item": "https://main-revitalize.vercel.app/experientialprograms"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
+      />
+
       <FinalCTA />
       <style jsx global>{`
         .bg-grid-pattern { background-image: linear-gradient(to right, #18181b 1px, transparent 1px), linear-gradient(to bottom, #18181b 1px, transparent 1px); background-size: 40px 40px; mask-image: radial-gradient(circle at center, black, transparent 80%); }

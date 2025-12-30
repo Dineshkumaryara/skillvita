@@ -51,6 +51,138 @@ export default function HiringSimulationPage() {
       <PlacementTestimonialsEditorial />
       <PlacementCta />
       <FAQs faqs={simulationFAQs} />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "@id": "https://skillvita.in/hiring-simulation/#webpage",
+              "url": "https://skillvita.in/hiring-simulation",
+              "name": "SkillVita Hiring Simulation | Hire Role-Trained Talent",
+              "description": "Assess execution, clarity, and role understanding through structured, mentor-evaluated simulations. Hire talent trained in real-world scenarios.",
+              "breadcrumb": { "@id": "https://skillvita.in/hiring-simulation/#breadcrumb" },
+              "publisher": { "@id": "https://skillvita.in/#organization" },
+              "mainEntity": { "@id": "https://skillvita.in/hiring-simulation/#software" }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "@id": "https://skillvita.in/hiring-simulation/#software",
+              "name": "SkillVita Hiring Simulation",
+              "operatingSystem": "Web",
+              "applicationCategory": "BusinessApplication",
+              "description": "A web-based testing system and hiring workflow platform that evaluates candidates through role-specific simulations, mentor feedback, and verified portfolios.",
+              "provider": { "@id": "https://skillvita.in/#organization" },
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "INR"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/skillvita/",
+                "https://www.instagram.com/skillvita.in/"
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": "SkillVita Simulation Framework Workflow",
+              "description": "How the SkillVita hiring simulation identifies and verifies job-ready talent.",
+              "step": [
+                {
+                  "@type": "HowToStep",
+                  "name": "Role-Aligned Tracks",
+                  "text": "Simulations built for Software, Product, Design, Marketing, and Operations roles—mirroring real job responsibilities.",
+                  "url": "https://skillvita.in/hiring-simulation#simulation-features"
+                },
+                {
+                  "@type": "HowToStep",
+                  "name": "Mentor Evaluation",
+                  "text": "Each deliverable reviewed for clarity, execution, and impact by experienced mentors with detailed feedback.",
+                  "url": "https://skillvita.in/hiring-simulation#simulation-features"
+                },
+                {
+                  "@type": "HowToStep",
+                  "name": "Capability Scorecards",
+                  "text": "Performance scores, insights, and progression data—complete visibility into strengths, weaknesses, and growth.",
+                  "url": "https://skillvita.in/hiring-simulation#simulation-features"
+                },
+                {
+                  "@type": "HowToStep",
+                  "name": "Verified Portfolio Proof",
+                  "text": "All work consolidated into verified SkillVita portfolios with direct access to deliverables and performance data.",
+                  "url": "https://skillvita.in/hiring-simulation#simulation-features"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": simulationFAQs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "@id": "https://skillvita.in/hiring-simulation/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://skillvita.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Hiring Simulation",
+                  "item": "https://skillvita.in/hiring-simulation"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://skillvita.in/#organization",
+              "name": "SkillVita",
+              "url": "https://skillvita.in",
+              "logo": "https://skillvita.in/icon.svg",
+              "sameAs": [
+                "https://www.linkedin.com/company/skillvita/",
+                "https://www.instagram.com/skillvita.in/"
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "SoftwareApplication",
+                "@id": "https://skillvita.in/hiring-simulation/#software"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Dr. Rajesh Kumar"
+              },
+              "reviewBody": "SkillVita Placement Tech transformed how we manage our placement cell. The automated workflows save us countless hours, and the intelligent matching ensures our students get opportunities that truly fit their skills."
+            }
+          ])
+        }}
+      />
     </div>
   );
 }

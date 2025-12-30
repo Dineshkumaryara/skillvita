@@ -1,14 +1,14 @@
 "use client";
 import React, { useMemo, useState } from "react";
 
-type Item = {
+export type Item = {
   category: "tech" | "design" | "business";
   title: string;
   subtitle: string;
   image: string;
 };
 
-const ITEMS: Item[] = [
+export const ITEMS: Item[] = [
   {
     category: "tech",
     title: "E-Commerce Microservices",

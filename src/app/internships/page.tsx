@@ -13,12 +13,32 @@ import ListViewClient from "@/components/Internships/ListViewClient";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Fingerprint } from "lucide-react";
+import InternshipQA from "@/components/Internships/InternshipQA";
 
 export const metadata: Metadata = {
   title: "Internships | SkillVita",
   description:
     "Explore verified internships with details on duration, skills, eligibility, and pay.",
 };
+
+const internshipFAQs = [
+  {
+    question: "Are these internships paid?",
+    answer: "Details on stipends and pay are listed on each specific internship opportunity. We offer both paid and unpaid learning internships."
+  },
+  {
+    question: "Do I get a certificate?",
+    answer: "Yes, upon successful completion of the internship and verified project work, you receive a recognized certificate."
+  },
+  {
+    question: "What is the duration?",
+    answer: "Durations vary from 1 to 6 months depending on the role and your availability. Most are flexible to fit academic schedules."
+  },
+  {
+    question: "Is it remote?",
+    answer: "Most of our internships are remote-first, allowing you to work from anywhere. Some hybrid options may be available."
+  }
+];
 
 export default async function InternshipsPage() {
   const internships = await getInternships();
@@ -29,7 +49,7 @@ export default async function InternshipsPage() {
         <Hero />
       </section>
 
-      
+
 
       <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
         <Overview />
@@ -88,7 +108,7 @@ export default async function InternshipsPage() {
             </div>
           </div>
 
-         
+
         </div>
       </section>
 
@@ -98,11 +118,140 @@ export default async function InternshipsPage() {
         </div>
       </section>
 
+      <InternshipQA faqs={internshipFAQs} />
+
       <section className="2xl:max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
         <GetStarted />
       </section>
 
-      
+      {/* Structured Data */}
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Internships | SkillVita",
+            "description": "Explore verified internships with details on duration, skills, eligibility, and pay.",
+            "url": "https://main-revitalize.vercel.app/internships",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "url": "https://main-revitalize.vercel.app/internships#list",
+            "name": "Internship Listings",
+            "description": "Browse available internships",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": internships.map((item, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": {
+                  "@type": "JobPosting",
+                  "title": item.title,
+                  "description": `<p>Internship at ${item.company} in ${item.domain}.</p><p><strong>Skills:</strong> ${item.skills.join(', ')}</p><p><strong>Duration:</strong> ${item.duration}</p><p><strong>Type:</strong> ${item.type}</p>`,
+                  "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": item.company
+                  },
+                  "jobLocation": item.type === 'remote' ? {
+                    "@type": "Place",
+                    "name": "Remote"
+                  } : {
+                    "@type": "Place",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressLocality": item.location,
+                      "addressCountry": "IN"
+                    }
+                  },
+                  "jobLocationType": item.type === 'remote' ? "TELECOMMUTE" : undefined,
+                  "baseSalary": item.stipend ? {
+                    "@type": "MonetaryAmount",
+                    "currency": "INR",
+                    "value": {
+                      "@type": "QuantitativeValue",
+                      "value": parseInt(item.stipend.replace(/[^0-9]/g, '')) || 0,
+                      "unitText": "MONTH"
+                    }
+                  } : undefined,
+                  "employmentType": "INTERN",
+                  "datePosted": new Date().toISOString().split('T')[0],
+                  "url": `https://main-revitalize.vercel.app/internships#internship-${item.id}`
+                }
+              }))
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": internshipFAQs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Internships",
+                "item": "https://main-revitalize.vercel.app/internships"
+              }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
+      />
+
+
 
     </main>
   );

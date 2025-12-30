@@ -1,21 +1,9 @@
+"use client";
 import React from "react";
 
-interface WhyText {
-  title: string;
-  description: string;
-}
-
-interface WhyPlacementSectionProps {
-  earlyUpskilling: WhyText;
-  whySkillvita: WhyText;
-}
-
-const WhyPlacementSection: React.FC<WhyPlacementSectionProps> = ({
-  earlyUpskilling,
-  whySkillvita,
-}) => {
+export function PartnershipOverview() {
   return (
-    <section className="py-20 md:py-32 px-4 bg-gradient-to-b from-white to-gray-50/50 dark:from-black dark:to-gray-950/50">
+    <section id="partnership-overview" className="py-20 md:py-32 px-4 bg-gradient-to-b from-white to-gray-50/50 dark:from-black dark:to-gray-950/50">
       <div className="max-w-4xl mx-auto">
         <div className="group relative">
           {/* Hover gradient effect */}
@@ -24,26 +12,13 @@ const WhyPlacementSection: React.FC<WhyPlacementSectionProps> = ({
           <div className="relative bg-card rounded-3xl p-8 md:p-12 border border-border shadow-xl hover:shadow-2xl transition-all duration-300">
             {/* Content */}
             <div className="space-y-8">
-              {/* Early Upskilling */}
+              {/* Overview */}
               <div>
                 <h3 className="text-xl md:text-2xl font-bold mb-3 bg-gradient-to-r from-brand-600 to-accent-600 dark:from-brand-400 dark:to-accent-400 bg-clip-text text-transparent">
-                  {earlyUpskilling.title}
+                  Overview
                 </h3>
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  {earlyUpskilling.description}
-                </p>
-              </div>
-
-              {/* Divider */}
-              <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-
-              {/* Why SkillVita */}
-              <div>
-                <h3 className="text-xl md:text-2xl font-bold mb-3 bg-gradient-to-r from-brand-600 to-accent-600 dark:from-brand-400 dark:to-accent-400 bg-clip-text text-transparent">
-                  {whySkillvita.title}
-                </h3>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  {whySkillvita.description}
+                  SkillVita partners with colleges to strengthen placement outcomes by bringing industry-aligned simulations, project-based learning, CRT training, and proof-of-work portfolios directly into the campus ecosystem. Instead of theory-driven preparation, students experience real execution, structured mentoring, and capability-based hiring pathways. This enables institutions to deliver job-ready graduates, improve recruiter confidence, and elevate overall placement performance.
                 </p>
               </div>
             </div>
@@ -56,6 +31,4 @@ const WhyPlacementSection: React.FC<WhyPlacementSectionProps> = ({
       </div>
     </section>
   );
-};
-
-export default WhyPlacementSection;
+}

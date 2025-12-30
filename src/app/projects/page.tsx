@@ -1,13 +1,15 @@
 "use client";
+
+import Script from "next/script";
 import Header from "@/components/projects/header";
 import { useRef, useEffect, useMemo, useState } from "react";
- 
+
 import ProjectCard from "@/components/projects/ProjectCard";
 import { PROJECTS } from "@/data/projectsData";
 import ProjectsLowerSection from "@/app/projects/_components/lower";
 import Preend from "./_components/preend";
 import End from "./_components/end";
-import FAQs from "@/components/course-overview/faqs";
+import ProjectQA from "@/components/projects/ProjectQA";
 
 type Project = {
   _id: string;
@@ -22,36 +24,29 @@ type Project = {
 const projectFAQs = [
   {
     question: "What types of projects are available?",
-    answer: "We offer a diverse range of projects including web development, mobile apps, data science, machine learning, blockchain, IoT, and cross-domain projects. All projects are designed to give you hands-on experience with real-world applications and emerging technologies."
+    answer:
+      "We offer a diverse range of projects including web development, mobile apps, data science, machine learning, blockchain, IoT, and cross-domain projects. All projects are designed to give you hands-on experience with real-world applications and emerging technologies.",
   },
   {
     question: "Do I need prior experience to start a project?",
-    answer: "No prior experience is required for beginner-level projects. We offer projects categorized by difficulty levels - Beginner, Intermediate, and Hard. You can choose a project that matches your current skill level and gradually progress to more complex ones."
+    answer:
+      "No prior experience is required for beginner-level projects. We offer projects categorized by difficulty levels - Beginner, Intermediate, and Hard.",
   },
   {
     question: "Will I receive mentorship during the project?",
-    answer: "Yes! Every project comes with expert mentorship and guidance. Our experienced mentors will help you understand the project requirements, provide technical support, review your code, and ensure you're on the right track throughout your project journey."
+    answer:
+      "Yes! Every project comes with expert mentorship and guidance from experienced mentors.",
   },
   {
     question: "Can I work on projects in a team?",
-    answer: "Absolutely! We encourage both individual and team collaborations. You can join a team or work individually based on your preference. Team projects help you develop collaboration skills and experience working in a professional team environment."
+    answer:
+      "Yes, you can work individually or as part of a team based on your preference.",
   },
   {
     question: "Will I get a certificate upon project completion?",
-    answer: "Yes, upon successful completion of your project, you'll receive a certificate of completion. This certificate validates your practical skills and can be added to your portfolio, resume, and LinkedIn profile to showcase your hands-on experience to potential employers."
+    answer:
+      "Yes, upon successful completion of your project, you'll receive a certificate of completion.",
   },
-  {
-    question: "How long does it take to complete a project?",
-    answer: "Project duration varies based on complexity and your pace. Beginner projects typically take 2-4 weeks, intermediate projects 4-8 weeks, and advanced projects 8-12 weeks. You can work at your own pace with flexible timelines."
-  },
-  {
-    question: "Can I add these projects to my portfolio?",
-    answer: "Yes! All completed projects can be added to your professional portfolio. We encourage you to showcase your work on GitHub, your portfolio website, and LinkedIn. These projects demonstrate your practical skills to potential employers and help you stand out in job applications."
-  },
-  {
-    question: "What tools and technologies will I learn?",
-    answer: "Each project focuses on specific tools and technologies relevant to the domain. You'll work with modern frameworks, libraries, and platforms used in the industry. The project description lists all the tools and skills you'll learn and apply."
-  }
 ];
 
 export default function Projects() {
@@ -82,90 +77,243 @@ export default function Projects() {
     );
   }, [projects, searchQuery]);
 
-  const allProjects = filteredProjects;
-  const totalPages = Math.max(1, Math.ceil(allProjects.length / itemsPerPage));
-  const displayedAll = allProjects.slice(
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredProjects.length / itemsPerPage)
+  );
+
+  const displayedProjects = filteredProjects.slice(
     (currentPage - 1) * itemsPerPage,
-    (currentPage - 1) * itemsPerPage + itemsPerPage
+    currentPage * itemsPerPage
   );
 
   return (
-    <div className="bg-white dark:bg-black md:-mt-8 -mt-4">
-      <Header targetFeaturedProjects={targetFeaturedProjects} />
+    <>
+      {/* ========= Structured Data: /projects page ========= */}
+      <Script
+        id="projects-webpage-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Projects | SkillVita",
+            "description": "Browse a diverse range of hands-on projects including web development, mobile apps, data science, machine learning, and more.",
+            "url": "https://main-revitalize.vercel.app/projects",
+            "isPartOf": {
+              "@type": "Website",
+              "name": "SkillVita",
+              "url": "https://main-revitalize.vercel.app"
+            }
+          })
+        }}
+      />
+      <Script
+        id="projects-collection-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "url": "https://main-revitalize.vercel.app/projects",
+            "name": "Project Listings",
+            "description": "Explore practical projects to build your portfolio.",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": PROJECTS.map((project, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": project.name,
+                  "description": project.description,
+                  "applicationCategory": "DeveloperApplication",
+                  "operatingSystem": "Web, Mobile, Desktop",
+                  "keywords": [...(project.skills || []), ...(project.stack || [])].join(", "),
+                  "url": `https://main-revitalize.vercel.app/projects/${project.id}`,
+                  "author": {
+                    "@type": "Organization",
+                    "name": "SkillVita"
+                  }
+                }
+              }))
+            }
+          })
+        }}
+      />
+      <Script
+        id="projects-breadcrumb-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://main-revitalize.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Projects",
+                "item": "https://main-revitalize.vercel.app/projects"
+              }
+            ]
+          })
+        }}
+      />
+      <Script
+        id="projects-org-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "SkillVita",
+            "url": "https://main-revitalize.vercel.app",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://main-revitalize.vercel.app/skillvita_icon.svg"
+            }
+          })
+        }}
+      />
 
-      <div id="mid" className="px-4 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl font-bold mt-10 mb-2">
-          <span className="text-black dark:text-white">All </span>
-          <span className="text-accent-500">Projects</span>
-        </h2>
-        <p className="text-center text-gray-500 dark:text-gray-400 mb-6">
-          Browse all projects and get started with an execution plan
-        </p>
+      {/* ========= Existing UI ========= */}
+      <div className="bg-white dark:bg-black md:-mt-8 -mt-4">
+        <Header targetFeaturedProjects={targetFeaturedProjects} />
 
-        <div className="max-w-xl mx-auto mb-6 relative">
-          <input
-            type="text"
-            placeholder="Search Projects..."
-            value={searchQuery}
-            onChange={(e) => {
-              setSearchQuery(e.target.value);
-              setCurrentPage(1);
-            }}
-            className="w-full py-3 px-6 pr-40 rounded-full bg-white dark:bg-[#18181B] border border-[#E4E4E7] dark:border-[#27272A] text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none"
-          />
-          <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-brand-500 text-accent-500 hover:bg-brand-600 px-5 py-2 rounded-full font-semibold">
-            Find Projects
-          </button>
+        <div id="mid" className="px-4 max-w-6xl mx-auto">
+          <h2 className="text-center text-2xl font-bold mt-10 mb-2">
+            <span className="text-black dark:text-white">All </span>
+            <span className="text-accent-500">Projects</span>
+          </h2>
+
+          <p className="text-center text-gray-500 dark:text-gray-400 mb-6">
+            Browse all projects and get started with an execution plan
+          </p>
+
+          <div className="max-w-xl mx-auto mb-6 relative">
+            <input
+              type="text"
+              placeholder="Search Projects..."
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="w-full py-3 px-6 rounded-full bg-white dark:bg-[#18181B] border border-[#E4E4E7] dark:border-[#27272A]"
+            />
+          </div>
+
+          {displayedProjects.length === 0 ? (
+            <div className="text-center text-gray-500 py-8">
+              No projects found.
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {displayedProjects.map((project) => (
+                <ProjectCard key={project._id} project={project} />
+              ))}
+            </div>
+          )}
+
+          {filteredProjects.length > itemsPerPage && (
+            <div
+              className="flex justify-center mt-8 gap-2 flex-wrap"
+              role="navigation"
+              aria-label="Pagination"
+            >
+              <button
+                className="px-4 py-2 rounded-md bg-gray-800 text-white hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                disabled={currentPage === 1}
+                onClick={() => {
+                  setCurrentPage((p) => Math.max(1, p - 1));
+                  document
+                    .getElementById("mid")
+                    ?.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+                aria-label="Previous page"
+              >
+                Prev
+              </button>
+              {[...Array(totalPages)].map((_, i) => {
+                const page = i + 1;
+                const isActive = page === currentPage;
+                return (
+                  <button
+                    key={page}
+                    onClick={() => {
+                      setCurrentPage(page);
+                      document
+                        .getElementById("mid")
+                        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }}
+                    aria-current={isActive ? "page" : undefined}
+                    className={
+                      isActive
+                        ? "px-4 py-2 rounded-md bg-brand-500 text-white shadow-sm"
+                        : "px-4 py-2 rounded-md bg-gray-800 text-white hover:bg-gray-700"
+                    }
+                    aria-label={`Go to page ${page}`}
+                  >
+                    {page}
+                  </button>
+                );
+              })}
+              <button
+                className="px-4 py-2 rounded-md bg-gray-800 text-white hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                disabled={currentPage === totalPages}
+                onClick={() => {
+                  setCurrentPage((p) => Math.min(totalPages, p + 1));
+                  document
+                    .getElementById("mid")
+                    ?.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+                aria-label="Next page"
+              >
+                Next
+              </button>
+            </div>
+          )}
         </div>
 
-        {displayedAll.length === 0 ? (
-          <div className="text-center text-gray-500 dark:text-gray-400 py-8">No projects found.</div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {displayedAll.map((project) => (
-              <ProjectCard key={project._id} project={project} />
-            ))}
-          </div>
-        )}
+        <ProjectsLowerSection />
+        <Preend />
 
-        {allProjects.length > itemsPerPage && (
-          <div className="flex justify-center mt-6 gap-1 flex-wrap">
-            <button
-              className="mx-1 px-3 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200 disabled:opacity-50"
-              onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-              disabled={currentPage === 1}
-            >
-              Prev
-            </button>
-            {[...Array(totalPages)].map((_, i) => (
-              <button
-                key={i}
-                className={`mx-1 px-3 py-1 rounded ${
-                  currentPage === i + 1
-                    ? "bg-brand-500 text-accent-500"
-                    : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200"
-                }`}
-                onClick={() => setCurrentPage(i + 1)}
-              >
-                {i + 1}
-              </button>
-            ))}
-            <button
-              className="mx-1 px-3 py-1 rounded bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-200 disabled:opacity-50"
-              onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-              disabled={currentPage === totalPages}
-            >
-              Next
-            </button>
-          </div>
-        )}
+
+
+        {/* Helper Scripts for FAQ and QAPage */}
+        {/* Helper Scripts for FAQ */}
+        <Script
+          id="faq-structured-data"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": projectFAQs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            })
+          }}
+        />
+        <ProjectQA faqs={projectFAQs} />
+        <End />
       </div>
-
-      <ProjectsLowerSection />
-      <Preend />
-      <FAQs faqs={projectFAQs} />
-      <End />
-    </div>
+    </>
   );
 }
-// metadata must be exported from a server component; using global layout metadata

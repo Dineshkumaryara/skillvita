@@ -86,17 +86,17 @@ export default function HiringProjectsPage() {
 
   return (
     <div className="bg-white dark:bg-black">
-      <PlacementHero 
+      <PlacementHero
         {...heroContent}
-        onStartLearning={scrollToProjects} 
+        onStartLearning={scrollToProjects}
       />
 
-      <WhyPlacementSection 
+      <WhyPlacementSection
         earlyUpskilling={whyContent.earlyUpskilling}
         whySkillvita={whyContent.whySkillvita}
       />
 
-      <StudentOpportunities 
+      <StudentOpportunities
         {...opportunitiesContent}
       />
 
@@ -113,6 +113,84 @@ export default function HiringProjectsPage() {
       <Last targetJoinNow={joinRef} />
 
       <FAQs faqs={hiringFAQs} />
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "@id": "https://skillvita.in/hiring-projects/#webpage",
+              "url": "https://skillvita.in/hiring-projects",
+              "name": "SkillVita Hiring Projects | Hire Talent Through Real-World Work",
+              "description": "Discover, evaluate, and hire emerging talent based on actual project performance and verified proof-of-work. Browse tech, design, and business projects.",
+              "breadcrumb": { "@id": "https://skillvita.in/hiring-projects/#breadcrumb" },
+              "publisher": { "@id": "https://skillvita.in/#organization" }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              "name": "SkillVita Student Hiring Projects",
+              "description": "A collection of verified student projects across multiple domains for recruiter evaluation.",
+              "mainEntity": {
+                "@type": "ItemList",
+                "itemListElement": [] // Currently no project cards visible on UI (placeholder only)
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": hiringFAQs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": faq.answer
+                }
+              }))
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "@id": "https://skillvita.in/hiring-projects/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://skillvita.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Hiring",
+                  "item": "https://skillvita.in/hiring-simulation" // Closest relevant parent page
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Hiring Projects",
+                  "item": "https://skillvita.in/hiring-projects"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://skillvita.in/#organization",
+              "name": "SkillVita",
+              "url": "https://skillvita.in",
+              "logo": "https://skillvita.in/icon.svg",
+              "sameAs": [
+                "https://www.linkedin.com/company/skillvita/",
+                "https://www.instagram.com/skillvita.in/"
+              ]
+            }
+          ])
+        }}
+      />
     </div>
   );
 }

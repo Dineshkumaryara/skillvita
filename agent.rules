@@ -1,0 +1,273 @@
+UNIVERSAL STRUCTURED DATA IMPLEMENTATION GUIDE
+(AI-Agent & Developer Reference | Google-Compliant)
+0️⃣ GLOBAL RULES (APPLY TO ALL PAGES)
+These rules override everything else.
+✅ Structured data must match visible content
+1️⃣ ARTICLE / CONTENT PAGES
+1.1 Blog / Editorial Article
+Use when
+Blog post
+Tutorial (non-stepwise)
+Thought leadership
+Tech write-up
+Schema
+BlogPosting (preferred)
+Example
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How JWT Authentication Works",
+  "description": "A deep dive into JWT-based authentication systems.",
+  "image": "https://example.com/jwt.png",
+  "datePublished": "2025-01-10",
+  "dateModified": "2025-01-12",
+  "author": {
+    "@type": "Person",
+    "name": "Revanth Naidu",
+    "url": "https://example.com/profile/revanth"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Example Tech",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/blog/jwt-auth"
+  }
+}
+1.2 News Article
+Schema
+NewsArticle
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "India Launches New AI Policy",
+  "datePublished": "2025-02-01",
+  "author": {
+    "@type": "Organization",
+    "name": "Tech Daily"
+  },
+  "image": "https://example.com/news.jpg"
+}
+2️⃣ QUESTION & ANSWER PAGES
+2.1 Q&A Page (Community Driven)
+Use when
+ONE question
+Users submit answers
+Voting / accepted answer exists
+Schema
+QAPage
+{
+  "@context": "https://schema.org",
+  "@type": "QAPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": "How does Redis help JWT authentication?",
+    "text": "Why is Redis used with JWT tokens?",
+    "answerCount": 1,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Redis helps by storing token blacklists and session metadata."
+    }
+  }
+}
+2.2 FAQ Page (Publisher Driven)
+Use when
+Multiple questions
+Answers written by site owner
+No user interaction
+Schema
+FAQPage
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is JWT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JWT is a stateless authentication token."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is JWT secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if implemented correctly."
+      }
+    }
+  ]
+}
+3️⃣ PROFILE & IDENTITY PAGES
+3.1 Profile Page (Person)
+Use when
+Author profile
+Creator profile
+Employee page
+Schema
+ProfilePage
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Revanth Naidu",
+    "jobTitle": "Backend Engineer",
+    "sameAs": [
+      "https://linkedin.com/in/revanth",
+      "https://github.com/revanth"
+    ]
+  }
+}
+4️⃣ PRODUCT & SOFTWARE PAGES
+4.1 Product Page
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Noise Cancelling Headphones",
+  "image": "https://example.com/headphones.jpg",
+  "offers": {
+    "@type": "Offer",
+    "price": "4999",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "ratingCount": "320"
+  }
+}
+4.2 Software / SaaS Page
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ReelOnGo CRM",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": 0
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "ratingCount": "120"
+  }
+}
+5️⃣ REVIEW & RATING PAGES
+5.1 Review (Non-Self)
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "iPhone 15"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Tech Reviewer"
+  }
+}
+⚠️ Never review your own business
+6️⃣ VIDEO PAGES
+6.1 Video Watch Page
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "JWT Authentication Explained",
+  "description": "Complete JWT guide",
+  "thumbnailUrl": "https://example.com/thumb.jpg",
+  "uploadDate": "2025-01-15",
+  "duration": "PT10M",
+  "contentUrl": "https://example.com/video.mp4"
+}
+6.2 Video with Key Moments
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "System Design Interview",
+  "hasPart": {
+    "@type": "Clip",
+    "name": "JWT Section",
+    "startOffset": 120,
+    "url": "https://example.com/video?t=120"
+  }
+}
+6.3 LIVE Video
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Live Coding Session",
+  "publication": {
+    "@type": "BroadcastEvent",
+    "isLiveBroadcast": true,
+    "startDate": "2025-02-20T10:00:00+05:30"
+  }
+}
+7️⃣ HOW-TO PAGES
+7.1 Step-by-Step Guide
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Deploy a Node App",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Install dependencies",
+      "text": "Run npm install"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Start server",
+      "text": "Run npm start"
+    }
+  ]
+}
+8️⃣ ORGANIZATION & BUSINESS
+8.1 Organization Page
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ReelOnGo",
+  "url": "https://reelongo.com",
+  "logo": "https://reelongo.com/logo.png"
+}
+9️⃣ NAVIGATION / SITE STRUCTURE
+9.1 Breadcrumbs
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Blog",
+      "item": "https://example.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "JWT Auth",
+      "item": "https://example.com/blog/jwt"
+    }
+  ]
+}
+🔟 AI AGENT AUTO-SELECTION LOGIC
+IF page has ONE question AND users answer → QAPage
+ELSE IF multiple static Q&A → FAQPage
+ELSE IF editorial content → Article subtype
+ELSE IF app/tool → SoftwareApplication
+ELSE IF sellable item → Product
+ELSE IF video playable → VideoObject
+ELSE IF person identity → ProfilePage

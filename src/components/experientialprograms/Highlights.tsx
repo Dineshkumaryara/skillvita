@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import HighlightItem from "@/components/experentialprograms/HighlightItem";
+import HighlightItem from "@/components/experientialprograms/HighlightItem";
 import { Layers, ClipboardList, CheckCircle, Users, MessageSquare, Play, TrendingUp, Folder } from "lucide-react";
 
 export default function Highlights() {
